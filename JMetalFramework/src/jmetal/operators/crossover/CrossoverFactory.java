@@ -51,6 +51,8 @@ public class CrossoverFactory {
       return new DifferentialEvolutionCrossover(parameters);
     else if (name.equalsIgnoreCase("BLXAlphaCrossover"))
       return new BLXAlphaCrossover(parameters);
+    else if (name.equalsIgnoreCase("SBXSinglePointCrossover"))
+        return new SBXSinglePointCrossover(parameters);
     else {
       Configuration.logger_.severe("CrossoverFactory.getCrossoverOperator. " +
           "Operator '" + name + "' not found ");
