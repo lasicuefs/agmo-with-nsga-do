@@ -33,6 +33,7 @@ import jmetal.util.PseudoRandom;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import mgpires.solutionType.ArrayBinarySolutionType;
 
 /**
  * This class implements a bit flip mutation operator.
@@ -44,8 +45,9 @@ public class BitFlipMutation extends Mutation {
    * Valid solution types to apply this operator 
    */
   private static final List VALID_TYPES = Arrays.asList(BinarySolutionType.class,
-      BinaryRealSolutionType.class,
-      IntSolutionType.class) ;
+                                                        BinaryRealSolutionType.class,
+                                                        IntSolutionType.class,
+                                                        ArrayBinarySolutionType.class) ;
 
   private Double mutationProbability_ = null ;
   
