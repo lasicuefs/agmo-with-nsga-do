@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/operators/mutation/MutationChangeFunctions.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/core/Samples.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/problems/LearningKB.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/operators/crossover/SinglePointCrossoverToRules.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/experiments/ExpNSGAIILearningKB.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/jmetal/core/Solution.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/problems/SelectInstances.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/jmetal/core/SolutionType.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/core/FuzzyReasoning.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/solutionType/ArrayIntAndRealSolutionType.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/mgpires/metaheuristics/nsgaII/NSGAII_main_SelectInstances.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/jmetal/encodings/solutionType/IntSolutionType.java</file>
+            <file>file:/C:/Users/joaop/Documents/UEFS%20IC%20Projects/LASIC/LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo/JMetalFramework/src/jmetal/encodings/solutionType/ArrayIntSolutionType.java</file>
+        </group>
+    </open-files>
 </project-private>

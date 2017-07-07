@@ -31,6 +31,7 @@ public class LearnSelectInstances extends AbstractBinaryProblem {
         solution.setObjective(0, value * -1);
     }
 
+
     public LearnSelectInstances(Samples samples) {
         this.samples = samples;
         this.bits = samples.getNumberOfTraSamples();

@@ -1,6 +1,7 @@
 package jpssena.metaheuristics;
 
 import jpssena.problem.LearnSelectInstances;
+import jpssena.util.ObjectIndex;
 import mgpires.core.Samples;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAII;
@@ -16,7 +17,9 @@ import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.AlgorithmRunner;
 import org.uma.jmetal.util.JMetalException;
 
+import java.util.ArrayList;
 import java.util.BitSet;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -77,9 +80,9 @@ public class Learn_main_SelectInstances {
         //Time after running
         long estimatedTime = System.currentTimeMillis() - initTime;
         double aux = estimatedTime * 0.001; // converted in seconds
-        double timeSelectInstances = aux * 0.0167;  // converted in minutes
+        //double timeSelectInstances = aux * 0.0167;  // converted in minutes
 
-        System.out.println("\nElapsed Time..............: " + timeSelectInstances + " minutes.");
+        System.out.println("\nElapsed Time..............: " + aux + " seconds.");
         System.out.println("Number of solutions.......: " + solutions.size());
 
         BinarySolution finalSolution = findSolution(solutions);
@@ -109,10 +112,32 @@ public class Learn_main_SelectInstances {
         else if (solutions.size() <= 2)
             index = 0;
         else {
+            List<ObjectIndex<Double>> doubles = new ArrayList<>();
             for (int i = 0; i < solutions.size(); i++) {
                 BinarySolution solution = solutions.get(i);
                 double reduction = solution.getObjective(0) * -1;
-                System.out.println("Reduction in " + i + "th element: " + reduction);
+                doubles.add(new ObjectIndex<>(reduction, i));
+            }
+
+            Collections.sort(doubles);
+
+            double min = doubles.get(0).getObject();
+            double max = doubles.get(doubles.size() - 1).getObject();
+
+            //Gets the middle value
+            double mean = (min + max)/2;
+
+            double dist = doubles.get(1).getObject() - mean;
+            index = doubles.get(1).getIndex();
+
+            for (int i = 1; i < doubles.size() - 1; i++) {
+                double val = doubles.get(i).getObject() - mean;
+
+                //The closest to the mean, the better
+                if (val <= dist) {
+                    dist = val;
+                    index = doubles.get(i).getIndex();
+                }
             }
         }
 
