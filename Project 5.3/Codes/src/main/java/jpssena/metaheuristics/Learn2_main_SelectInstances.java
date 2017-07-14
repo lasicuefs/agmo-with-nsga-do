@@ -33,7 +33,6 @@ public class Learn2_main_SelectInstances {
         Algorithm<List<BinarySolution>> algorithm;
         CrossoverOperator<BinarySolution> crossoverOperator;
         MutationOperator<BinarySolution> mutationOperator;
-        SelectionOperator<List<BinarySolution>, BinarySolution> selectionOperator;
 
         //Setup DataSet
         String dataSetName = "car";
