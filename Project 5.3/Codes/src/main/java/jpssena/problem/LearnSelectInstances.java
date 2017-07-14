@@ -46,5 +46,8 @@ public class LearnSelectInstances extends AbstractBinaryProblem {
         return bits;
     }
 
+    public BinarySolution createSolution() {
+        return new DefaultBinarySolution(this);
+    }
 
 }

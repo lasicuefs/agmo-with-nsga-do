@@ -37,14 +37,14 @@ public class NSGAII_main_SelectInstances {
         
         Samples samples;        
       
-        String datasetName     = "abalone";
+        String datasetName     = "titanic";
         //String datasetLocation = "./dataset/" + datasetName + "/";
         String datasetLocation = "./dataset-test/" + datasetName + "/";
                 
         samples = new Samples();              
         samples.loadSamples(datasetLocation + datasetName, "10", 1);  
-        samples.printTraSamples();
-        samples.printTestSamples();
+        //samples.printTraSamples();
+        //samples.printTestSamples();
         // There are two options: classification or regression
         samples.setTypeDataSet("classification");
         samples.setTypeProcedure("training"); 
