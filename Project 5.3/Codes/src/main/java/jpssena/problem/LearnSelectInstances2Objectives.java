@@ -53,7 +53,7 @@ public class LearnSelectInstances2Objectives extends AbstractBinaryProblem {
             System.exit(-1);
         }
 
-        accuracy = accuracy / samples.numInstances();
+        accuracy = accuracy / samples.numInstances(); //?????? (Precisa??)
 
 
         //Multiply count -1 to minimize
