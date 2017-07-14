@@ -27,6 +27,7 @@ public class LearnSelectInstances2Objectives extends AbstractBinaryProblem {
         for (int i = bitSet.length() - 1; i >= 0; i--) {
             if (bitSet.get(i)) {
                 selected++;
+            } else {
                 instances.remove(i);
             }
         }
