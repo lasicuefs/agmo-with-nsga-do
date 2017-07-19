@@ -12,7 +12,7 @@ import java.util.BitSet;
 /**
  * Created by João Paulo on 13/06/2017.
  */
-public class LearnSelectInstances2Objectives extends AbstractBinaryProblem {
+public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
     private Instances samples;
     private int bits;
 
@@ -62,7 +62,7 @@ public class LearnSelectInstances2Objectives extends AbstractBinaryProblem {
     }
 
 
-    public LearnSelectInstances2Objectives(Instances samples) {
+    public LearnMultiObjectivesSelectInstances(Instances samples) {
         this.samples = samples;
         this.bits = samples.numInstances();
 

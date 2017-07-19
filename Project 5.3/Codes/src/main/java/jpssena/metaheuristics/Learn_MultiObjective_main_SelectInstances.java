@@ -1,16 +1,12 @@
 package jpssena.metaheuristics;
 
-import jpssena.problem.LearnSelectInstances;
-import jpssena.problem.LearnSelectInstances2Objectives;
-import mgpires.core.Samples;
+import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
 import org.uma.jmetal.operator.CrossoverOperator;
 import org.uma.jmetal.operator.MutationOperator;
-import org.uma.jmetal.operator.SelectionOperator;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
-import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.AlgorithmRunner;
@@ -25,7 +21,7 @@ import java.util.List;
 /**
  * Created by João Paulo on 15/06/2017.
  */
-public class Learn2_main_SelectInstances {
+public class Learn_MultiObjective_main_SelectInstances {
 
     public static void main(String[] args) throws IOException{
         //Variables
@@ -47,7 +43,7 @@ public class Learn2_main_SelectInstances {
 
 
         //Setup Problem
-        problem = new LearnSelectInstances2Objectives(training);
+        problem = new LearnMultiObjectivesSelectInstances(training);
 
         //Print stuff
         System.out.println("Problem name....................: " + problem.getName());
