@@ -21,7 +21,6 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
         BitSet bitSet = solution.getVariableValue(0);
         int selected = 0;
 
-
         Instances instances = new Instances(samples);
         //for each bit (every training sample)
         for (int i = bitSet.length() - 1; i >= 0; i--) {
@@ -53,7 +52,7 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
             System.exit(-1);
         }
 
-        accuracy = accuracy / samples.numInstances(); //?????? (Precisa??)
+        accuracy = accuracy / samples.numInstances();
 
 
         //Multiply count -1 to minimize
