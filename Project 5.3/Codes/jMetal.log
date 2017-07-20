@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272466</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215827</millis>
   <sequence>0</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Loggers configured with null</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272523</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215905</millis>
   <sequence>1</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -24,31 +24,9 @@
   <message>ExecuteAlgorithms: Preparing output directory</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272542</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
   <sequence>2</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message>Creating ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances</message>
-</record>
-<record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272543</millis>
-  <sequence>4</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>SEVERE</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message>Creating ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances failed</message>
-</record>
-<record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272542</millis>
-  <sequence>3</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>SEVERE</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -57,20 +35,31 @@
   <message>Creating ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances failed</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272543</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
+  <sequence>4</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message>Creating ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances</message>
+</record>
+<record>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
   <sequence>5</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
+  <thread>13</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272544</millis>
-  <sequence>6</sequence>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
+  <sequence>3</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>SEVERE</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -79,9 +68,31 @@
   <message>Creating ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances failed</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272544</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
+  <sequence>6</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215921</millis>
   <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215937</millis>
+  <sequence>8</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -90,41 +101,30 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272544</millis>
-  <sequence>8</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272545</millis>
+  <date>2017-07-19T20:50:15</date>
+  <millis>1500508215937</millis>
   <sequence>9</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
+  <thread>15</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:32</date>
-  <millis>1500507272547</millis>
+  <date>2017-07-19T20:50:21</date>
+  <millis>1500508221562</millis>
   <sequence>10</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
+  <thread>14</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:38</date>
-  <millis>1500507278246</millis>
+  <date>2017-07-19T20:50:21</date>
+  <millis>1500508221624</millis>
   <sequence>11</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -134,8 +134,8 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:38</date>
-  <millis>1500507278280</millis>
+  <date>2017-07-19T20:50:24</date>
+  <millis>1500508224812</millis>
   <sequence>12</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -145,20 +145,9 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:41</date>
-  <millis>1500507281617</millis>
+  <date>2017-07-19T20:50:24</date>
+  <millis>1500508224859</millis>
   <sequence>13</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:34:41</date>
-  <millis>1500507281647</millis>
-  <sequence>14</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -167,8 +156,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:45</date>
-  <millis>1500507285375</millis>
+  <date>2017-07-19T20:50:28</date>
+  <millis>1500508228239</millis>
+  <sequence>14</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:50:31</date>
+  <millis>1500508231540</millis>
   <sequence>15</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -178,19 +178,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:34:48</date>
-  <millis>1500507288849</millis>
+  <date>2017-07-19T20:52:07</date>
+  <millis>1500508327754</millis>
   <sequence>16</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
+  <thread>13</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:36:28</date>
-  <millis>1500507388685</millis>
+  <date>2017-07-19T20:52:07</date>
+  <millis>1500508327754</millis>
   <sequence>17</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -200,8 +200,8 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:36:28</date>
-  <millis>1500507388935</millis>
+  <date>2017-07-19T20:52:07</date>
+  <millis>1500508327983</millis>
   <sequence>18</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -211,20 +211,9 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:36:29</date>
-  <millis>1500507389438</millis>
+  <date>2017-07-19T20:52:11</date>
+  <millis>1500508331355</millis>
   <sequence>19</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:36:32</date>
-  <millis>1500507392380</millis>
-  <sequence>20</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -233,9 +222,9 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:36:41</date>
-  <millis>1500507401507</millis>
-  <sequence>21</sequence>
+  <date>2017-07-19T20:52:19</date>
+  <millis>1500508339464</millis>
+  <sequence>20</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -244,9 +233,9 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:22</date>
-  <millis>1500507502438</millis>
-  <sequence>22</sequence>
+  <date>2017-07-19T20:53:46</date>
+  <millis>1500508426360</millis>
+  <sequence>21</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -255,8 +244,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:23</date>
-  <millis>1500507503054</millis>
+  <date>2017-07-19T20:53:56</date>
+  <millis>1500508436752</millis>
+  <sequence>22</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:53:57</date>
+  <millis>1500508437134</millis>
   <sequence>23</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -266,19 +266,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:23</date>
-  <millis>1500507503774</millis>
+  <date>2017-07-19T20:54:00</date>
+  <millis>1500508440558</millis>
   <sequence>24</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:28</date>
-  <millis>1500507508352</millis>
+  <date>2017-07-19T20:54:04</date>
+  <millis>1500508444128</millis>
   <sequence>25</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -288,19 +288,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:36</date>
-  <millis>1500507516418</millis>
+  <date>2017-07-19T20:54:07</date>
+  <millis>1500508447951</millis>
   <sequence>26</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:39</date>
-  <millis>1500507519844</millis>
+  <date>2017-07-19T20:54:09</date>
+  <millis>1500508449634</millis>
   <sequence>27</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -310,42 +310,20 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:43</date>
-  <millis>1500507523312</millis>
+  <date>2017-07-19T20:54:11</date>
+  <millis>1500508451581</millis>
   <sequence>28</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:38:46</date>
-  <millis>1500507526662</millis>
+  <date>2017-07-19T20:55:46</date>
+  <millis>1500508546807</millis>
   <sequence>29</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:40:15</date>
-  <millis>1500507615386</millis>
-  <sequence>30</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:40:16</date>
-  <millis>1500507616457</millis>
-  <sequence>31</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -354,9 +332,9 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:42:01</date>
-  <millis>1500507721048</millis>
-  <sequence>32</sequence>
+  <date>2017-07-19T20:57:08</date>
+  <millis>1500508628644</millis>
+  <sequence>30</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -365,8 +343,30 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:42:06</date>
-  <millis>1500507726995</millis>
+  <date>2017-07-19T20:57:19</date>
+  <millis>1500508639287</millis>
+  <sequence>31</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:57:31</date>
+  <millis>1500508651293</millis>
+  <sequence>32</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T20:57:32</date>
+  <millis>1500508652520</millis>
   <sequence>33</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -376,64 +376,31 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:42:25</date>
-  <millis>1500507745532</millis>
+  <date>2017-07-19T20:57:34</date>
+  <millis>1500508654438</millis>
   <sequence>34</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
+  <thread>15</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:43:54</date>
-  <millis>1500507834099</millis>
+  <date>2017-07-19T21:00:51</date>
+  <millis>1500508851749</millis>
   <sequence>35</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
   <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 0, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:46:04</date>
-  <millis>1500507964174</millis>
-  <sequence>37</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:46:04</date>
-  <millis>1500507964174</millis>
+  <date>2017-07-19T21:00:51</date>
+  <millis>1500508851749</millis>
   <sequence>39</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:46:04</date>
-  <millis>1500507964174</millis>
-  <sequence>40</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-07-19T20:46:04</date>
-  <millis>1500507964174</millis>
-  <sequence>38</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
@@ -442,8 +409,30 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:46:04</date>
-  <millis>1500507964174</millis>
+  <date>2017-07-19T21:00:51</date>
+  <millis>1500508851749</millis>
+  <sequence>38</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:00:51</date>
+  <millis>1500508851749</millis>
+  <sequence>37</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:00:51</date>
+  <millis>1500508851749</millis>
   <sequence>36</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -453,8 +442,19 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:46:07</date>
-  <millis>1500507967644</millis>
+  <date>2017-07-19T21:00:55</date>
+  <millis>1500508855078</millis>
+  <sequence>40</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:00:55</date>
+  <millis>1500508855078</millis>
   <sequence>41</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -464,13 +464,79 @@
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-07-19T20:46:11</date>
-  <millis>1500507971315</millis>
+  <date>2017-07-19T21:00:58</date>
+  <millis>1500508858328</millis>
   <sequence>42</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
   <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:00:58</date>
+  <millis>1500508858343</millis>
+  <sequence>43</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
   <thread>1</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:01:01</date>
+  <millis>1500508861468</millis>
+  <sequence>44</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:02:39</date>
+  <millis>1500508959892</millis>
+  <sequence>45</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:02:43</date>
+  <millis>1500508963080</millis>
+  <sequence>46</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:02:46</date>
+  <millis>1500508966161</millis>
+  <sequence>47</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-07-19T21:02:49</date>
+  <millis>1500508969114</millis>
+  <sequence>48</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>org.uma.jmetal.util.experiment.util.ExperimentAlgorithm</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
   <message> Running algorithm: NSGAII, problem: Learn Select Instances, run: 1, funFile: ./dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv</message>
 </record>

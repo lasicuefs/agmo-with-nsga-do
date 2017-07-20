@@ -10,7 +10,7 @@ import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentBuilder;
-import org.uma.jmetal.util.experiment.component.ExecuteAlgorithms;
+import org.uma.jmetal.util.experiment.component.*;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
 import org.uma.jmetal.util.experiment.util.ExperimentProblem;
 import util.DatFixer;
@@ -22,15 +22,13 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collection;
 import java.util.List;
 
 /**
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective {
-    private static final int INDEPENDENT_RUNS = 25;
+    private static final int INDEPENDENT_RUNS = 2;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String baseDirectory = "./dataset-test";
@@ -53,6 +51,31 @@ public class Experiment_Learn_MultiObjective {
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
+        try {
+            new ComputeQualityIndicators<>(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            new GenerateLatexTablesWithStatistics(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            new GenerateWilcoxonTestTablesWithR<>(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            new GenerateFriedmanTestTables<>(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            new GenerateBoxplotsWithR<>(experiment).setRows(1).setColumns(2).setDisplayNotch().run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(

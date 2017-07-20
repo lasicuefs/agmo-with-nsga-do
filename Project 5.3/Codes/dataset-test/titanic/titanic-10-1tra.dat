@@ -1,5 +1,5 @@
 @relation titanic
-@attribute Class real[-1.87,0.965]
+@attribute Class real?[-1.87,0.965]
 @attribute Age real[-0.228,4.38]    
 @attribute Sex real[-1.92,0.521]    
 @attribute Survived {-1.0,1.0}          
