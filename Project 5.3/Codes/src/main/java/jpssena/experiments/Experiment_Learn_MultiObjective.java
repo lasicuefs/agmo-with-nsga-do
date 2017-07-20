@@ -53,27 +53,27 @@ public class Experiment_Learn_MultiObjective {
         new ExecuteAlgorithms<>(experiment).run();
         try {
             new ComputeQualityIndicators<>(experiment).run();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         try {
             new GenerateLatexTablesWithStatistics(experiment).run();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         try {
             new GenerateWilcoxonTestTablesWithR<>(experiment).run();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         try {
             new GenerateFriedmanTestTables<>(experiment).run();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
         try {
             new GenerateBoxplotsWithR<>(experiment).setRows(1).setColumns(2).setDisplayNotch().run();
-        } catch (IOException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
