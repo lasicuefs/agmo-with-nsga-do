@@ -2,9 +2,153 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jMetal.log.lck" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-10tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-10tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-10tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-10tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-1tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-1tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-2tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-2tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-2tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-2tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-3tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-3tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-3tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-3tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-4tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-4tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-4tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-4tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-5tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-5tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-5tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-5tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-6tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-6tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-6tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-6tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-7tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-7tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-7tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-7tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-8tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-8tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-8tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-8tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-9tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-9tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-9tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/car/car-10-9tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-10tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-10tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-1tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-1tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-2tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-2tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-3tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-3tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-4tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-4tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-5tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-5tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-6tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-6tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-7tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-7tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-8tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-8tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-9tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/chess/chess-10-9tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tst.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tra.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tra.fdat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tst.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tst.fdat" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective.java" />
     </list>
@@ -32,8 +176,8 @@
       <file leaf-file-name="Experiment_Learn_MultiObjective.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
+            <state relative-caret-position="345">
+              <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,38 +185,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FUN1.tsv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VAR0.tsv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR0.tsv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VAR1.tsv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FUN0.tsv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv">
+      <file leaf-file-name="IGD+.Boxplot.R" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/R/IGD+.Boxplot.R">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -191,24 +305,7 @@
               <item name="Codes" type="462c0819:PsiDirectoryNode" />
               <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
               <item name="Learn Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Learn Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGAII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Learn Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGAII" type="462c0819:PsiDirectoryNode" />
-              <item name="Learn Select Instances" type="462c0819:PsiDirectoryNode" />
+              <item name="R" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
@@ -808,16 +905,15 @@
       <workItem from="1500031930638" duration="14739000" />
       <workItem from="1500047862802" duration="75000" />
       <workItem from="1500496131894" duration="424000" />
-      <workItem from="1500496861959" duration="12513000" />
+      <workItem from="1500496861959" duration="12823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48230000" />
+    <option name="totallyTimeSpent" value="48540000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -828,7 +924,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47385103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47385103" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -867,27 +963,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0-sources.jar!/weka/classifiers/Evaluation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="370" column="14" lean-forward="false" selection-start-line="370" selection-start-column="14" selection-end-line="370" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/problem/Problem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/problem/BinaryProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="41" lean-forward="false" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/problem/impl/AbstractBinaryProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1180,17 +1255,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/ComputeQualityIndicators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="40" column="20" lean-forward="false" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
-          <folding>
-            <element signature="e#1941#1942#0" expanded="true" />
-            <element signature="e#1980#1981#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/metaheuristics/Learn_MultiObjective_main_SelectInstances.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
@@ -1231,16 +1295,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="75" column="26" lean-forward="false" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1257,6 +1311,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR0.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1265,7 +1327,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/data/NSGAII/Learn Select Instances/VAR0.tsv">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateWilcoxonTestTablesWithR.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateLatexTablesWithStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#2053#2079#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/ComputeQualityIndicators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="60" column="17" lean-forward="false" selection-start-line="60" selection-start-column="17" selection-end-line="60" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/Learn Experiment/R/IGD+.Boxplot.R">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

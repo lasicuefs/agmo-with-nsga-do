@@ -7,6 +7,8 @@ import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
 import org.uma.jmetal.problem.Problem;
+import org.uma.jmetal.qualityindicator.impl.*;
+import org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolume;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentBuilder;
@@ -22,6 +24,7 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -48,6 +51,14 @@ public class Experiment_Learn_MultiObjective {
                 .setOutputParetoSetFileName("VAR")
                 .setIndependentRuns(INDEPENDENT_RUNS)
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())
+                .setIndicatorList(Arrays.asList(
+                        new Epsilon<BinarySolution>(),
+                        new Spread<BinarySolution>(),
+                        new GenerationalDistance<BinarySolution>(),
+                        new PISAHypervolume<BinarySolution>(),
+                        new InvertedGenerationalDistance<BinarySolution>(),
+                        new InvertedGenerationalDistancePlus<BinarySolution>())
+                )
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
@@ -108,7 +119,7 @@ public class Experiment_Learn_MultiObjective {
             System.out.println("Folder doesn't exists or is empty");
         } else {
             for (File subDirectory : folder.listFiles()) {
-                if (subDirectory.isDirectory()) {
+                if (subDirectory.isDirectory() && !subDirectory.getName().startsWith("_")) {
                     problems.addAll(createProblemsOnDirectory(subDirectory));
                 }
             }
