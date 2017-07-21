@@ -2,183 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/ThreadsUtil.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment/data/NSGAII/Learn Select Instances/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment/data/NSGAII/Learn Select Instances/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment/data/NSGAII/Learn Select Instances/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment/data/NSGAII/Learn Select Instances/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/EP.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/EP.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/GD.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/GD.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/HV.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/HV.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/IGD+.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/IGD+.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/IGD.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/IGD.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/SPREAD.Boxplot.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/SPREAD.Wilcoxon.R" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-10tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-10tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-10tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-10tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-10tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-10tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-10tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-10tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-1tra.arff" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.arff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-1tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-1tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-1tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-1tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-1tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-1tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-1tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-2tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-2tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-2tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-2tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-2tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-2tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-2tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-2tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-3tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-3tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-3tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-3tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-3tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-3tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-3tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-3tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-4tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-4tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-4tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-4tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-4tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-4tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-4tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-4tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-5tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-5tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-5tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-5tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-5tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-5tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-5tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-5tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-6tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-6tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-6tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-6tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-6tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-6tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-6tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-6tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-7tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-7tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-7tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-7tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-7tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-7tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-7tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-7tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-8tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-8tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-8tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-8tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-8tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-8tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-8tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-8tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-9tra.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-9tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-9tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-9tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-9tst.dat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-9tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_car/car-10-9tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/car/car-10-9tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-10tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-10tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-10tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-10tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-1tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-1tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-1tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-1tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-2tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-2tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-2tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-2tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-3tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-3tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-3tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-3tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-4tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-4tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-4tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-4tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-5tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-5tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-5tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-5tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-6tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-6tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-6tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-6tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-7tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-7tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-7tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-7tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-8tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-8tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-8tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-8tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-9tra.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-9tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_chess/chess-10-9tst.dat" afterPath="$PROJECT_DIR$/dataset-test/chess/chess-10-9tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-10tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-10tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-10tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-10tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-10tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-1tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-1tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-1tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-1tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-2tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-2tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-2tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-2tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-2tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-3tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-3tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-3tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-3tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-3tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-4tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-4tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-4tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-4tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-4tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-5tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-5tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-5tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-5tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-5tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-6tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-6tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-6tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-6tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-6tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-7tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-7tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-7tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-7tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-7tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-8tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-8tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-8tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-8tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-8tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-9tra.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-9tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-9tst.dat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_haberman/haberman-10-9tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-9tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-10tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-10tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-10tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-10tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-10tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-1tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-1tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-1tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-1tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-2tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-2tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-2tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-2tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-2tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-3tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-3tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-3tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-3tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-3tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-4tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-4tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-4tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-4tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-4tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-5tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-5tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-5tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-5tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-5tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-6tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-6tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-6tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-6tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-6tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-7tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-7tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-7tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-7tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-7tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-8tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-8tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-8tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-8tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-8tst.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-9tra.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tra.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-9tra.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tra.fdat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-9tst.dat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tst.dat" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/dataset-test/_titanic/titanic-10-9tst.fdat" afterPath="$PROJECT_DIR$/dataset-test/titanic/titanic-10-9tst.fdat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/ZDTStudy.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/ZDTStudy.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/metaheuristics/Learn_MultiObjective_main_SelectInstances.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/metaheuristics/Learn_MultiObjective_main_SelectInstances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/metaheuristics/Learn_main_SelectInstances.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/metaheuristics/Learn_main_SelectInstances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnMultiObjectivesSelectInstances.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnMultiObjectivesSelectInstances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnSelectInstances.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnSelectInstances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mgpires/core/Samples.class" afterPath="$PROJECT_DIR$/target/classes/mgpires/core/Samples.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/DatFixer.class" afterPath="$PROJECT_DIR$/target/classes/util/DatFixer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/Debug.class" afterPath="$PROJECT_DIR$/target/classes/util/Debug.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT1.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT2.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT3.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT4.pf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT6.pf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-10/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-2/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-3/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-4/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-5/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-6/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-7/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-8/VAR2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/FUN2.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR0.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR0.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR1.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR1.tsv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR2.tsv" afterPath="$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-9/VAR2.tsv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_MGPiresWay.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_MGPiresWay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/metaheuristics/Learn_MultiObjective_main_SelectInstances.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/metaheuristics/Learn_MultiObjective_main_SelectInstances.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -194,8 +86,8 @@
       <file leaf-file-name="Experiment_Learn_MultiObjective_JMetalWay.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1795">
-              <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+            <state relative-caret-position="310">
+              <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -359,37 +251,63 @@
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
-              <item name="metaheuristics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jmetal" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jmetal" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jmetal" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="jmetal" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.uma.jmetal:jmetal-core:5.3" type="70bed36:NamedLibraryElementNode" />
+              <item name="jmetal-core-5.3.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="pareto_fronts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -414,6 +332,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="jpssena.problem" />
       <recent name="jpssena.metaheuristics" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joaop\Documents\UEFS IC Projects\LASIC\LASIC_Repositorio_AlgoritmosEvolutivosMultiobjetivo\Project 5.3\Codes\dataset-test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -945,16 +866,15 @@
       <workItem from="1500640501049" duration="222000" />
       <workItem from="1500640770488" duration="90000" />
       <workItem from="1500640890810" duration="50000" />
-      <workItem from="1500640982211" duration="6144000" />
+      <workItem from="1500640982211" duration="8815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57772000" />
+    <option name="totallyTimeSpent" value="60443000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -965,14 +885,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42472267" sideWeight="0.5058565" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51664025" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4199683" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
@@ -982,10 +902,10 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="combo" />
+      <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1006,164 +926,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateBoxplotsWithR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.3/jmetal-exec-5.3-sources.jar!/org/uma/jmetal/experiment/BinaryProblemsStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="115" column="93" lean-forward="false" selection-start-line="111" selection-start-column="4" selection-end-line="115" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.dat" />
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/IGD+.Boxplot.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="47" lean-forward="false" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/io/FileInputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="92" column="0" lean-forward="false" selection-start-line="92" selection-start-column="0" selection-end-line="92" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/EP.Wilcoxon.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/R/EP.Boxplot.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-exec/5.3/jmetal-exec-5.3-sources.jar!/org/uma/jmetal/experiment/ZDTStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="140" column="1" lean-forward="true" selection-start-line="49" selection-start-column="0" selection-end-line="140" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/data/NSGAII/ZDT1/GD">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/data/NSGAII/ZDT1/MEDIAN_GD_VAR.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/R/EP.Boxplot.eps">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/R/SPREAD.Wilcoxon.R">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codes.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jMetal.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/ZDTStudy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="61" column="31" lean-forward="false" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/data/NSGAII/ZDT1/MEDIAN_SPREAD_VAR.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/data/NSGAII/ZDT1/VAR1.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ZDTStudy/data/NSGAII/ZDT1/VAR0.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/pareto_fronts/ZDT1.pf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-685">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateWilcoxonTestTablesWithR.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="32" column="9" lean-forward="false" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/VAR1.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="66" lean-forward="false" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/VAR0.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/FUN1.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/_Learn Experiment_2/data/NSGAII/Learn Select Instances/FUN0.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1310,14 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/ComputeQualityIndicators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment/data/NSGAII/zoo-1/FUN1.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -1339,16 +1093,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateLatexTablesWithStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="66" column="81" lean-forward="false" selection-start-line="66" selection-start-column="74" selection-end-line="66" selection-end-column="81" />
-          <folding>
-            <element signature="e#2053#2079#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1387,10 +1131,213 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/pareto_fronts/ZDT1.pf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1581">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.3/commons-math3-3.3-sources.jar!/org/apache/commons/math3/stat/descriptive/DescriptiveStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="205" column="18" lean-forward="false" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+          <folding>
+            <element signature="e#8360#8361#0" expanded="true" />
+            <element signature="e#8398#8399#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/ExperimentComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3.jar!/pareto_fronts/Fonseca.pf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6874">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3.jar!/pareto_fronts/LZ09_F1.pf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3.jar!/pareto_fronts/ZDT1.pf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/GenerateLatexTablesWithStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="50" column="58" lean-forward="false" selection-start-line="50" selection-start-column="41" selection-end-line="50" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/pareto_fronts/ZDT1.pf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/ZDTStudy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/latex/FriedmanTestEP.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-86">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/latex/The Experiment 3.tex">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/ComputeQualityIndicators.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="61" column="73" lean-forward="false" selection-start-line="61" selection-start-column="64" selection-end-line="61" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/BEST_EP_FUN.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/BEST_EP_VAR.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/BEST_GD_FUN.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/MEDIAN_EP_FUN.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/SPREAD">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 3/data/NSGAII/zoo-1/VAR0.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-algorithm/5.3/jmetal-algorithm-5.3-sources.jar!/org/uma/jmetal/algorithm/multiobjective/nsgaiii/NSGAIII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/util/stream/ForEachOps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="173" column="0" lean-forward="false" selection-start-line="173" selection-start-column="0" selection-end-line="173" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-algorithm/5.3/jmetal-algorithm-5.3-sources.jar!/org/uma/jmetal/algorithm/multiobjective/nsgaiii/NSGAIIIBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="58" column="47" lean-forward="false" selection-start-line="58" selection-start-column="27" selection-end-line="58" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/component/ExecuteAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/fs/WindowsFileCopy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="697">
+          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1795">
-          <caret line="33" column="49" lean-forward="false" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+        <state relative-caret-position="310">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

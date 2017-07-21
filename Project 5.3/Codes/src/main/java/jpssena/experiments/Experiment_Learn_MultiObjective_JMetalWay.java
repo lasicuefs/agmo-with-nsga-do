@@ -3,8 +3,10 @@ package jpssena.experiments;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
+import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
+import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.qualityindicator.impl.*;
 import org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolume;
@@ -31,12 +33,13 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective_JMetalWay {
-    private static final int INDEPENDENT_RUNS = 3;
+    private static final int INDEPENDENT_RUNS = 2;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
     private static final String[] datasetNames = {"zoo"};
+    private static final List<String> referenceFrontFileNames = Arrays.asList("ZDT1.pf", "ZDT2.pf", "ZDT3.pf", "ZDT4.pf", "ZDT6.pf", "ZDT1.pf", "ZDT2.pf", "ZDT3.pf", "ZDT4.pf", "ZDT6.pf");
 
     public static void main (String[] args) {
         List<ExperimentProblem<BinarySolution>> problems = configureProblems();
@@ -45,7 +48,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> algorithms = configureAlgorithms(problems);
 
         Experiment<BinarySolution, List<BinarySolution>> experiment;
-        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment")
+        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment 4")
                 .setAlgorithmList(algorithms)
                 .setProblemList(problems)
                 .setExperimentBaseDirectory(baseDirectory)
@@ -53,14 +56,16 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                 .setOutputParetoSetFileName("VAR")
                 .setIndependentRuns(INDEPENDENT_RUNS)
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())
-                /*.setIndicatorList(Arrays.asList(
+                .setIndicatorList(Arrays.asList(
                         new Epsilon<BinarySolution>(),
                         new Spread<BinarySolution>(),
                         new GenerationalDistance<BinarySolution>(),
                         new PISAHypervolume<BinarySolution>(),
                         new InvertedGenerationalDistance<BinarySolution>(),
                         new InvertedGenerationalDistancePlus<BinarySolution>())
-                )*/
+                )
+                .setReferenceFrontDirectory("/pareto_fronts")
+                .setReferenceFrontFileNames(referenceFrontFileNames)
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
@@ -88,19 +93,19 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                 System.out.println("Accuracy Rate............: " + accuracy * -1);
             }
         }
-        /*
+
         try {
             new ComputeQualityIndicators<>(experiment).run();
         } catch (Exception e) {
             e.printStackTrace();
         }
-*/
-        /*try {
+
+        try {
             new GenerateLatexTablesWithStatistics(experiment).run();
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
-        /*
+        }
+
         try {
             new GenerateWilcoxonTestTablesWithR<>(experiment).run();
         } catch (Exception e) {
@@ -115,7 +120,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
             new GenerateBoxplotsWithR<>(experiment).setRows(1).setColumns(2).setDisplayNotch().run();
         } catch (Exception e) {
             e.printStackTrace();
-        }*/
+        }
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(
@@ -134,6 +139,17 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                     .build();
 
             algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
+
+            Algorithm<List<BinarySolution>> nsgaiii = new NSGAIIIBuilder<>(
+                    problem)
+                    .setCrossoverOperator(new HUXCrossover(0.9))
+                    .setMutationOperator(new BitFlipMutation(0.2))
+                    .setPopulationSize(100)
+                    .setMaxIterations(1000)
+                    .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
+                    .build();
+
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsgaiii, exp_problem.getTag()));
         }
 
         return algorithms;
