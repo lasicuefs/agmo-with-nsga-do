@@ -24,17 +24,19 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.BitSet;
 import java.util.List;
 
 /**
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective_JMetalWay {
-    private static final int INDEPENDENT_RUNS = 2;
+    private static final int INDEPENDENT_RUNS = 3;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
+    private static final String[] datasetNames = {"zoo"};
 
     public static void main (String[] args) {
         List<ExperimentProblem<BinarySolution>> problems = configureProblems();
@@ -43,7 +45,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> algorithms = configureAlgorithms(problems);
 
         Experiment<BinarySolution, List<BinarySolution>> experiment;
-        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("Learn Experiment")
+        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment")
                 .setAlgorithmList(algorithms)
                 .setProblemList(problems)
                 .setExperimentBaseDirectory(baseDirectory)
@@ -51,27 +53,54 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                 .setOutputParetoSetFileName("VAR")
                 .setIndependentRuns(INDEPENDENT_RUNS)
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())
-                .setIndicatorList(Arrays.asList(
+                /*.setIndicatorList(Arrays.asList(
                         new Epsilon<BinarySolution>(),
                         new Spread<BinarySolution>(),
                         new GenerationalDistance<BinarySolution>(),
                         new PISAHypervolume<BinarySolution>(),
                         new InvertedGenerationalDistance<BinarySolution>(),
                         new InvertedGenerationalDistancePlus<BinarySolution>())
-                )
+                )*/
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
+
+        for (ExperimentAlgorithm<BinarySolution, List<BinarySolution>> algorithmExp : experiment.getAlgorithmList()) {
+            Algorithm<List<BinarySolution>> algorithm = algorithmExp.getAlgorithm();
+
+            System.out.println("\n\nAlgorithm................: " + algorithm.getName());
+            System.out.println("Problem..................: " + algorithmExp.getProblemTag());
+            System.out.println("Number of Solutions......: " + algorithm.getResult().size());
+
+            for (BinarySolution solution : algorithm.getResult()) {
+                System.out.println("............................................................................");
+                BitSet bitSet = solution.getVariableValue(0);
+                int count = 0;
+                for (int i = 0; i < bitSet.length(); i++) {
+                    if (bitSet.get(i)) {
+                        count++;
+                    }
+                }
+                System.out.println("Selected Samples.........: " + count);
+                double reduction = solution.getObjective(1);
+                System.out.println("Reduction Rate...........: " + reduction * -1);
+                double accuracy = solution.getObjective(0);
+                System.out.println("Accuracy Rate............: " + accuracy * -1);
+            }
+        }
+        /*
         try {
             new ComputeQualityIndicators<>(experiment).run();
         } catch (Exception e) {
             e.printStackTrace();
         }
-        try {
+*/
+        /*try {
             new GenerateLatexTablesWithStatistics(experiment).run();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
+        /*
         try {
             new GenerateWilcoxonTestTablesWithR<>(experiment).run();
         } catch (Exception e) {
@@ -86,7 +115,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
             new GenerateBoxplotsWithR<>(experiment).setRows(1).setColumns(2).setDisplayNotch().run();
         } catch (Exception e) {
             e.printStackTrace();
-        }
+        }*/
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(
@@ -118,11 +147,18 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         if (!folder.exists() || !folder.isDirectory() || folder.listFiles() == null) {
             System.out.println("Folder doesn't exists or is empty");
         } else {
+            for (String datasetName : datasetNames) {
+                File file = new File (baseDirectory + "/" + datasetName);
+                if (file.isDirectory())
+                    problems.addAll(createProblemsOnDirectory(file));
+            }
+            /*
             for (File subDirectory : folder.listFiles()) {
                 if (subDirectory.isDirectory() && !subDirectory.getName().startsWith("_")) {
                     problems.addAll(createProblemsOnDirectory(subDirectory));
                 }
             }
+            */
         }
 
         return problems;
@@ -150,7 +186,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
 
                 if (trainingInstances.classIndex() == -1)
                     trainingInstances.setClassIndex(trainingInstances.numAttributes() - 1);
-                problems.add(new ExperimentProblem<>(new LearnMultiObjectivesSelectInstances(trainingInstances)));
+                problems.add(new ExperimentProblem<>(new LearnMultiObjectivesSelectInstances(trainingInstances), directory.getName() + "-" + i));
             } catch (IOException e) {
                 Debug.println("Failed to get instances for fold: " + ((trainingInstances == null) ? training.getAbsolutePath() : testing.getAbsolutePath()));
                 Debug.println("Raised exception: " + e.getClass());

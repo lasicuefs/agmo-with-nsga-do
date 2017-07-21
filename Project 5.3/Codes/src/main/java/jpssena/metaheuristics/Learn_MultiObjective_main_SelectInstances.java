@@ -17,11 +17,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.BitSet;
 import java.util.List;
+import java.util.concurrent.Callable;
 
 /**
  * Created by João Paulo on 15/06/2017.
  */
-public class Learn_MultiObjective_main_SelectInstances {
+public class Learn_MultiObjective_main_SelectInstances implements Callable {
+
+    public Learn_MultiObjective_main_SelectInstances() {
+
+    }
 
     public static void main(String[] args) throws IOException{
         //Variables
@@ -31,10 +36,10 @@ public class Learn_MultiObjective_main_SelectInstances {
         MutationOperator<BinarySolution> mutationOperator;
 
         //Setup DataSet
-        String dataSetName = "car";
+        String dataSetName = "zoo";
         String dataSetLocation = "./dataset-test/" + dataSetName + "/";
 
-        String name = dataSetLocation + dataSetName + "-" + "10" + "-" + Integer.toString(1) + "tra.dat";
+        String name = dataSetLocation + dataSetName + "-" + "10" + "-" + Integer.toString(1) + "tra.fdat";
         BufferedReader reader = new BufferedReader(new FileReader(name));
         Instances training = new Instances(reader);
 
@@ -100,5 +105,10 @@ public class Learn_MultiObjective_main_SelectInstances {
             double accuracy = solution.getObjective(0);
             System.out.println("Accuracy Rate.............: " + accuracy * -1);
         }
+    }
+
+    @Override
+    public Object call() throws Exception {
+        return null;
     }
 }
