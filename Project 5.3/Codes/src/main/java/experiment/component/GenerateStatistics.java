@@ -4,6 +4,7 @@ import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentComponent;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
+import util.GeneticUtil;
 import util.Statistics;
 
 import java.io.*;
@@ -25,7 +26,7 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
 
     @Override
     public void run() throws IOException {
-        for (ExperimentAlgorithm<?, Result> experimentAlgorithm : experiment.getAlgorithmList()) {
+        for (ExperimentAlgorithm<S, Result> experimentAlgorithm : experiment.getAlgorithmList()) {
             String algorithmDirectory = experiment.getExperimentBaseDirectory() + "/data/" + experimentAlgorithm.getAlgorithmTag();
             String problemDirectory = algorithmDirectory + "/" + experimentAlgorithm.getProblemTag();
             String problemTag = experimentAlgorithm.getProblemTag().split("-")[0];
@@ -41,9 +42,9 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
             List<Hashtable<Integer, ObjectiveStatistics>> hashtableList = new ArrayList<>();
 
             for (int run = 0; run < experiment.getIndependentRuns(); run++) {
-                File function = new File (problemDirectory + "/FUN" + run + ".tsv");
+                File function = new File (problemDirectory + "/" + experiment.getOutputParetoFrontFileName() + run + ".tsv");
 
-                Hashtable<Integer, List<Double>> objectivesPerValue = readFunctionFile(function);
+                Hashtable<Integer, List<Double>> objectivesPerValue = GeneticUtil.functionFileToObjectivesValue(function);
                 Hashtable<Integer, ObjectiveStatistics> statistics = createMeanAndSD(objectivesPerValue);
                 writeStatistics(experimentAlgorithm.getProblemTag() + " " + run, statistics, result);
                 hashtableList.add(statistics);
@@ -122,49 +123,14 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
         return statistics;
     }
 
-    private Hashtable<Integer, List<Double>> readFunctionFile(File function) throws IOException {
-        BufferedReader reader = new BufferedReader(new FileReader(function));
-        String line;
-        Hashtable<Integer, List<Double>> objectivesPerValue = new Hashtable<>();
+    private class ObjectiveStatistics {
+        double mean;
+        double sd;
 
-        while ((line = reader.readLine()) != null) {
-            if (line.trim().isEmpty())
-                continue;
-
-            if (line.startsWith("Time")) {
-                double time = Double.parseDouble(line.split(" ")[1]);
-                List<Double> values = objectivesPerValue.get(-1);
-
-                if (values == null)
-                    values = new ArrayList<>();
-
-                values.add(time);
-                objectivesPerValue.put(-1, values);
-            } else {
-                String[] objectives = line.split(" ");
-                for (int i = 0; i < objectives.length; i++) {
-                    double value = Double.parseDouble(objectives[i]) * -1;
-                    List<Double> values = objectivesPerValue.get(i);
-
-                    if (values == null)
-                        values = new ArrayList<>();
-
-                    values.add(value);
-                    objectivesPerValue.put(i, values);
-                }
-            }
+        ObjectiveStatistics(double mean, double sd) {
+            this.mean = mean;
+            this.sd = sd;
         }
-
-        return objectivesPerValue;
     }
 }
 
-class ObjectiveStatistics {
-    double mean;
-    double sd;
-
-    ObjectiveStatistics(double mean, double sd) {
-        this.mean = mean;
-        this.sd = sd;
-    }
-}

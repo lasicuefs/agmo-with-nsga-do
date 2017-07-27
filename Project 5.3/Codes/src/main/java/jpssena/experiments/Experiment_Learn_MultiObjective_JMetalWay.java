@@ -32,7 +32,7 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective_JMetalWay {
-    private static final int INDEPENDENT_RUNS = 2;
+    private static final int INDEPENDENT_RUNS = 3;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
@@ -52,19 +52,9 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                 .setProblemList(problems)
                 .setExperimentBaseDirectory(baseDirectory)
                 .setOutputParetoFrontFileName("FUN")
-                //.setOutputParetoSetFileName("VAR")
+                .setOutputParetoSetFileName("VAR")
                 .setIndependentRuns(INDEPENDENT_RUNS)
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())
-                /*.setIndicatorList(Arrays.asList(
-                        new Epsilon<BinarySolution>(),
-                        new Spread<BinarySolution>(),
-                        new GenerationalDistance<BinarySolution>(),
-                        new PISAHypervolume<BinarySolution>(),
-                        new InvertedGenerationalDistance<BinarySolution>(),
-                        new InvertedGenerationalDistancePlus<BinarySolution>())
-                )
-                .setReferenceFrontDirectory("/pareto_fronts")
-                .setReferenceFrontFileNames(referenceFrontFileNames)*/
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
@@ -105,41 +95,11 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
 
         Debug.println("Started: Select Best Chromosome");
         try {
-            new SelectBestChromosome<>(experiment).run();
+            new SelectBestChromosome<>(experiment, stratification).run();
         } catch (IOException e) {
             e.printStackTrace();
         }
         Debug.println("Finished: Select Best Chromosome");
-/*
-        try {
-            new ComputeQualityIndicators<>(experiment).run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
-/*
-        try {
-            new GenerateLatexTablesWithStatistics(experiment).run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        try {
-            new GenerateWilcoxonTestTablesWithR<>(experiment).run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        try {
-            new GenerateFriedmanTestTables<>(experiment).run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        try {
-            new GenerateBoxplotsWithR<>(experiment).setRows(1).setColumns(2).setDisplayNotch().run();
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        */
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(
