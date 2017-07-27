@@ -1,10 +1,9 @@
-package component;
+package experiment.component;
 
 import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentComponent;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
-import util.Debug;
 import util.Statistics;
 
 import java.io.*;
@@ -129,16 +128,30 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
         Hashtable<Integer, List<Double>> objectivesPerValue = new Hashtable<>();
 
         while ((line = reader.readLine()) != null) {
-            String[] objectives = line.split(" ");
-            for (int i = 0; i < objectives.length; i++) {
-                double value = Double.parseDouble(objectives[i]) *-1;
-                List<Double> values = objectivesPerValue.get(i);
+            if (line.trim().isEmpty())
+                continue;
+
+            if (line.startsWith("Time")) {
+                double time = Double.parseDouble(line.split(" ")[1]);
+                List<Double> values = objectivesPerValue.get(-1);
 
                 if (values == null)
                     values = new ArrayList<>();
 
-                values.add(value);
-                objectivesPerValue.put(i, values);
+                values.add(time);
+                objectivesPerValue.put(-1, values);
+            } else {
+                String[] objectives = line.split(" ");
+                for (int i = 0; i < objectives.length; i++) {
+                    double value = Double.parseDouble(objectives[i]) * -1;
+                    List<Double> values = objectivesPerValue.get(i);
+
+                    if (values == null)
+                        values = new ArrayList<>();
+
+                    values.add(value);
+                    objectivesPerValue.put(i, values);
+                }
             }
         }
 

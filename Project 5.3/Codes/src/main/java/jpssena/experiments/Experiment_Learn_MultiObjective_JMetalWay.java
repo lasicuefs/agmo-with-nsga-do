@@ -1,6 +1,7 @@
 package jpssena.experiments;
 
-import component.GenerateStatistics;
+import experiment.component.GenerateStatistics;
+import experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
@@ -91,11 +92,15 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
             }
         }
 
+        Debug.println("Started: Generating Statistics");
+
         try {
             new GenerateStatistics<>(experiment).run();
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Debug.println("Finished: Generating Statistics");
 /*
         try {
             new ComputeQualityIndicators<>(experiment).run();
@@ -143,7 +148,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                     .setPopulationSize(100)
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
 
             /*
             Algorithm<List<BinarySolution>> nsgaiii = new NSGAIIIBuilder<>(

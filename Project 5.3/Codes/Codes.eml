@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component LANGUAGE_LEVEL="JDK_1_7" inheritJdk="true">
+<experiment.component LANGUAGE_LEVEL="JDK_1_7" inheritJdk="true">
 	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
 	<contentEntry url="file://$MODULE_DIR$">
 		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
@@ -20,4 +20,4 @@
 		<level name="Maven: org.uma.jmetal:jmetal-exec:5.3" value="project"/>
 		<level name="Maven: org.uma.jmetal:jmetal:5.3" value="project"/>
 	</levels>
-</component>
+</experiment.component>
