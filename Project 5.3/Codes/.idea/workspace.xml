@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/experiment/util/ExperimentAlgorithmWithTime.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/component/ExperimentValues.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/component/GenerateStatistics.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/component/ObjectiveStatistics.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/component/GenerateStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Codes.eml" afterPath="$PROJECT_DIR$/Codes.eml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -24,13 +16,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Experiment_Learn_MultiObjective_JMetalWay.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Experiment_Learn_MultiObjective_JMetalWay.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="150" column="43" lean-forward="false" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+            <state relative-caret-position="357">
+              <caret line="111" column="55" lean-forward="false" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateStatistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="31" column="71" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SelectBestChromosome.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#540#541#0" expanded="true" />
+                <element signature="e#584#585#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,8 +113,10 @@
         <option value="$PROJECT_DIR$/src/main/java/util/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/component/GenerateStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/util/ExperimentAlgorithmWithTime.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestCromossome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java" />
       </list>
     </option>
   </component>
@@ -182,6 +202,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="experiment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Codes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="GenerateStatistics.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
@@ -917,12 +956,12 @@
       <workItem from="1500662424338" duration="4497000" />
       <workItem from="1500904940968" duration="1186000" />
       <workItem from="1501151893756" duration="13133000" />
-      <workItem from="1501171507989" duration="1976000" />
+      <workItem from="1501171507989" duration="2481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81235000" />
+    <option name="totallyTimeSpent" value="81740000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -936,11 +975,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42472267" sideWeight="0.5058565" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4659271" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4659271" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -977,8 +1016,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 4/data/NSGAII/zoo-1/VAR0.tsv" />
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 4/latex/The Experiment 4.tex" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 5/data/NSGAII/zoo-1/FUN1.tsv" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 5/data/NSGAII/zoo-1/FUN2.tsv" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 5/data/NSGAII/zoo-1/VAR0.tsv" />
@@ -1267,20 +1304,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="145" column="49" lean-forward="false" selection-start-line="145" selection-start-column="49" selection-end-line="145" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/util/ExperimentAlgorithmWithTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        <state relative-caret-position="430">
+          <caret line="73" column="9" lean-forward="true" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1289,10 +1316,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="150" column="43" lean-forward="false" selection-start-line="150" selection-start-column="43" selection-end-line="150" selection-end-column="43" />
+        <state relative-caret-position="357">
+          <caret line="111" column="55" lean-forward="false" selection-start-line="111" selection-start-column="55" selection-end-line="111" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/experiment/ExperimentComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="71" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
           </folding>
         </state>
       </provider>

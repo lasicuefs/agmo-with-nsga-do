@@ -1,6 +1,7 @@
 package jpssena.experiments;
 
 import experiment.component.GenerateStatistics;
+import experiment.component.SelectBestChromosome;
 import experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
@@ -101,6 +102,14 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         }
 
         Debug.println("Finished: Generating Statistics");
+
+        Debug.println("Started: Select Best Chromosome");
+        try {
+            new SelectBestChromosome<>(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        Debug.println("Finished: Select Best Chromosome");
 /*
         try {
             new ComputeQualityIndicators<>(experiment).run();
