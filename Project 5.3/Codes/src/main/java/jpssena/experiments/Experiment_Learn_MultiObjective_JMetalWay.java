@@ -1,5 +1,6 @@
 package jpssena.experiments;
 
+import component.GenerateStatistics;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
@@ -29,12 +30,12 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective_JMetalWay {
-    private static final int INDEPENDENT_RUNS = 3;
+    private static final int INDEPENDENT_RUNS = 2;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
-    private static final String[] datasetNames = {"zoo"};
+    private static final String[] datasetNames = {"zoo", "haberman"};
     private static final List<String> referenceFrontFileNames = Arrays.asList("ZDT1.pf", "ZDT2.pf", "ZDT3.pf", "ZDT4.pf", "ZDT6.pf", "ZDT1.pf", "ZDT2.pf", "ZDT3.pf", "ZDT4.pf", "ZDT6.pf");
 
     public static void main (String[] args) {
@@ -91,10 +92,17 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         }
 
         try {
+            new GenerateStatistics<>(experiment).run();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+/*
+        try {
             new ComputeQualityIndicators<>(experiment).run();
         } catch (Exception e) {
             e.printStackTrace();
         }
+        */
 /*
         try {
             new GenerateLatexTablesWithStatistics(experiment).run();
