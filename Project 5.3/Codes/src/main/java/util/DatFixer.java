@@ -7,6 +7,7 @@ import java.io.*;
  */
 public class DatFixer {
 
+    //TODO Comment
     public static File fixDatFormat(File original) {
         File fixed = new File(original.getParentFile() + "\\" + original.getName().substring(0, original.getName().length() - 4) + ".fdat");
         System.out.println(fixed.getName());

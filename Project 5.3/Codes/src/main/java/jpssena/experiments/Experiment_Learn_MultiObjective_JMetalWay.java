@@ -3,13 +3,9 @@ package jpssena.experiments;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
-import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
-import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
-import org.uma.jmetal.qualityindicator.impl.*;
-import org.uma.jmetal.qualityindicator.impl.hypervolume.PISAHypervolume;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentBuilder;
@@ -33,7 +29,7 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class Experiment_Learn_MultiObjective_JMetalWay {
-    private static final int INDEPENDENT_RUNS = 2;
+    private static final int INDEPENDENT_RUNS = 3;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
@@ -48,15 +44,15 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> algorithms = configureAlgorithms(problems);
 
         Experiment<BinarySolution, List<BinarySolution>> experiment;
-        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment 4")
+        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment 6")
                 .setAlgorithmList(algorithms)
                 .setProblemList(problems)
                 .setExperimentBaseDirectory(baseDirectory)
                 .setOutputParetoFrontFileName("FUN")
-                .setOutputParetoSetFileName("VAR")
+                //.setOutputParetoSetFileName("VAR")
                 .setIndependentRuns(INDEPENDENT_RUNS)
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())
-                .setIndicatorList(Arrays.asList(
+                /*.setIndicatorList(Arrays.asList(
                         new Epsilon<BinarySolution>(),
                         new Spread<BinarySolution>(),
                         new GenerationalDistance<BinarySolution>(),
@@ -65,7 +61,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                         new InvertedGenerationalDistancePlus<BinarySolution>())
                 )
                 .setReferenceFrontDirectory("/pareto_fronts")
-                .setReferenceFrontFileNames(referenceFrontFileNames)
+                .setReferenceFrontFileNames(referenceFrontFileNames)*/
                 .build();
 
         new ExecuteAlgorithms<>(experiment).run();
@@ -99,7 +95,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
+/*
         try {
             new GenerateLatexTablesWithStatistics(experiment).run();
         } catch (Exception e) {
@@ -121,6 +117,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        */
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(
@@ -140,6 +137,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
 
             algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
 
+            /*
             Algorithm<List<BinarySolution>> nsgaiii = new NSGAIIIBuilder<>(
                     problem)
                     .setCrossoverOperator(new HUXCrossover(0.9))
@@ -149,7 +147,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
                     .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsgaiii, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsgaiii, exp_problem.getTag()));*/
         }
 
         return algorithms;
