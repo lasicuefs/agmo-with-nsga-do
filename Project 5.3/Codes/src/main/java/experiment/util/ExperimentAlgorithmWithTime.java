@@ -17,6 +17,8 @@ import java.util.List;
 
 /**
  * Created by João Paulo on 27/07/2017.
+ *
+ * Class that is used to run algorithms in a Experiment, that's why it extends Experiment Algorithm
  */
 public class ExperimentAlgorithmWithTime<S extends Solution<?>, Result> extends ExperimentAlgorithm<S, Result> {
 
@@ -30,6 +32,8 @@ public class ExperimentAlgorithmWithTime<S extends Solution<?>, Result> extends 
 
     @Override
     public void runAlgorithm(int id, Experiment<?, ?> experimentData) {
+        //----------------------------------------------------------------
+        //This Section is exactly equals to the Framework's code
         String outputDirectoryName = experimentData.getExperimentBaseDirectory()
                 + "/data/"
                 + getAlgorithmTag()
@@ -54,6 +58,7 @@ public class ExperimentAlgorithmWithTime<S extends Solution<?>, Result> extends 
                         ", run: " + id +
                         ", funFile: " + funFile);
 
+        //Here is the new trick. Saves the time in seconds to this new variable
         long estimatedTime = new AlgorithmRunner.Executor(getAlgorithm()).execute().getComputingTime();
         double aux = estimatedTime * 0.001;
         Result population = getAlgorithm().getResult();
@@ -63,7 +68,9 @@ public class ExperimentAlgorithmWithTime<S extends Solution<?>, Result> extends 
                 .setVarFileOutputContext(new DefaultFileOutputContext(varFile))
                 .setFunFileOutputContext(new DefaultFileOutputContext(funFile))
                 .print();
+        //-------------------------------------------------------------
 
+        //Writes the execution time in seconds to the function file.
         try {
             BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(new File(funFile), true));
             bufferedWriter.write("\n\nTime: " + Double.toString(aux));
