@@ -15,9 +15,19 @@ import java.util.List;
 /**
  * Created by João Paulo on 27/07/2017.
  */
+
+/**
+ * This component will generate mean and standard deviation for every single run and an overall mean and sd for every problem solved.
+ * This modules can be used after an experiment. But it only needs the function file with the objectives values after the experiment is executed.
+ * @param <S> The Solution Type
+ * @param <Result> The Result Type
+ */
 public class GenerateStatistics<S extends Solution<?>, Result> implements ExperimentComponent {
+    //The Experiment
     private final Experiment<S, Result> experiment;
+    //TODO remove, this is unused now
     private Hashtable<String, List<Hashtable<Integer, ObjectiveStatistics>>> directories;
+    //Hashtable that contains the statistic of every single run of every single fold of every single problem of every single algorithm
     private Hashtable<String, List<Hashtable<Integer, ObjectiveStatistics>>> means;
 
     public GenerateStatistics(Experiment<S, Result> experiment) {
@@ -93,7 +103,7 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
             //We create a file to store the results
             File resultFile = new File(problemBase + "/result.txt");
             resultFile.createNewFile();
-            //We get the list of the result of every fold
+            //We get the list of the result of every fold run
             List<Hashtable<Integer, ObjectiveStatistics>> problemStats = means.get(problemBase);
             //Create the Mean and SD using the result of all folds
             Hashtable<Integer, ObjectiveStatistics> statisticsHashtable = createSingleStatistics(problemStats);
@@ -103,31 +113,46 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
     }
 
     private Hashtable<Integer, ObjectiveStatistics> createSingleStatistics(List<Hashtable<Integer, ObjectiveStatistics>> hashtableList) {
+        //Hashtable used to map the objectives with it respective values
         Hashtable<Integer, List<Double>> objectivePerValue = new Hashtable<>();
 
+        //For each Objective-Statistic pair in the list
         for (Hashtable<Integer, ObjectiveStatistics> hashtable : hashtableList) {
             for (Integer objective : hashtable.keySet()) {
+                //Extract the mean
                 double mean = hashtable.get(objective).mean;
 
+                //Add the mean to the list
                 List<Double> values = objectivePerValue.get(objective);
-                if (values == null)
-                    values = new ArrayList<>();
-
+                if (values == null) values = new ArrayList<>();
                 values.add(mean);
+                //And put it inside the hashtable track
                 objectivePerValue.put(objective, values);
             }
         }
 
+        //Create the return object that contains the Mean and SD for each Objective
         Hashtable<Integer, ObjectiveStatistics> objectiveStatistics = new Hashtable<>();
+        //For each Objective mapped in the 2 for's before
         for (Integer objective : objectivePerValue.keySet()) {
+            //Get the double list
             List<Double> values = objectivePerValue.get(objective);
+            //Create a new ObjectiveStatistics with the mean and SD and add it to the return hashtable
             objectiveStatistics.put(objective, new ObjectiveStatistics(Statistics.mean(values), Statistics.sd(values)));
         }
 
+        //Returns the mean and SD of every objective
         return objectiveStatistics;
-
     }
 
+
+    /**
+     * Writes a Hashtable of Objective Statistics to a file
+     * @param header A message to be written at the start of every line
+     * @param statistics The Hashtable of ObjectiveStatistics to be written
+     * @param result The file to be appended with the new information
+     * @throws IOException If the file fails to be written
+     */
     private void writeStatistics(String header, Hashtable<Integer, ObjectiveStatistics> statistics, File result) throws IOException {
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(result, true));
         if (!header.trim().isEmpty())
@@ -142,6 +167,11 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
         bufferedWriter.close();
     }
 
+    /**
+     * For a given List of values of a Objective, creates the mean and standard deviation
+     * @param objectivesPerValue A hashtable where the objective is the key and the values of it ate the value
+     * @return A new Hashtable in which every objective has an mean and SD
+     */
     private Hashtable<Integer, ObjectiveStatistics> createMeanAndSD(Hashtable<Integer, List<Double>> objectivesPerValue) {
         Hashtable<Integer, ObjectiveStatistics> statistics = new Hashtable<>();
 
@@ -155,6 +185,10 @@ public class GenerateStatistics<S extends Solution<?>, Result> implements Experi
         return statistics;
     }
 
+    /**
+     * Class used to hold the 2 double information.
+     * Mean and SD.
+     */
     private class ObjectiveStatistics {
         double mean;
         double sd;

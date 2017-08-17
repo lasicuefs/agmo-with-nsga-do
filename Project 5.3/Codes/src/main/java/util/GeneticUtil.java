@@ -98,9 +98,6 @@ public class GeneticUtil {
     }
 
     public static void createFileWithBitSet(BitSet selected, File file, File result) throws IOException {
-        if (!file.exists())
-            file.createNewFile();
-
         if (!result.exists())
             result.createNewFile();
 

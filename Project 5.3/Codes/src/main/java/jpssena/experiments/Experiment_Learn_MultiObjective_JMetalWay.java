@@ -65,6 +65,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
 
         //-----------------------------------------
         //This is a debugging area
+
         for (ExperimentAlgorithm<BinarySolution, List<BinarySolution>> algorithmExp : experiment.getAlgorithmList()) {
             Algorithm<List<BinarySolution>> algorithm = algorithmExp.getAlgorithm();
 
