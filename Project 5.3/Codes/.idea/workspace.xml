@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="" />
+    <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/experiment/component/GenerateStatistics$ObjectiveStatistics.class" afterPath="$PROJECT_DIR$/target/classes/experiment/component/GenerateStatistics$ObjectiveStatistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/experiment/component/GenerateStatistics.class" afterPath="$PROJECT_DIR$/target/classes/experiment/component/GenerateStatistics.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" afterPath="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestSelectedChromosome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSelectedChromosome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/TestSelectedChromosome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="583">
+              <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,8 +34,28 @@
       <file leaf-file-name="SelectBestChromosome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
+            <state relative-caret-position="-663">
               <caret line="23" column="87" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="87" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GenerateStatistics.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1054">
+              <caret line="96" column="78" lean-forward="false" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Statistics.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/Statistics.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -108,7 +134,6 @@
         <option value="$PROJECT_DIR$/dataset-test/titanic/titanic-10-1tra.dat" />
         <option value="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN1.tsv" />
         <option value="$PROJECT_DIR$/src/main/java/util/Debug.java" />
-        <option value="$PROJECT_DIR$/src/main/java/util/Statistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/component/GenerateStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestCromossome.java" />
         <option value="$PROJECT_DIR$/src/main/java/util/Files.java" />
@@ -124,9 +149,10 @@
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/TestSelectedChromosome.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/problem/LearnMultiObjectivesSelectInstances.java" />
-        <option value="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
         <option value="$PROJECT_DIR$/src/main/java/experiment/component/TestSelectedChromosome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/Statistics.java" />
+        <option value="$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java" />
       </list>
     </option>
   </component>
@@ -151,8 +177,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-164" />
+    <option name="y" value="235" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -191,36 +217,6 @@
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="The Experiment 6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="The Experiment 6" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="The Experiment 6" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGAII" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="The Experiment 6" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGAII" type="462c0819:PsiDirectoryNode" />
-              <item name="haberman" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -242,7 +238,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
@@ -250,26 +246,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
-              <item name="experiments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
-              <item name="metaheuristics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="jpssena" type="462c0819:PsiDirectoryNode" />
-              <item name="problem" type="462c0819:PsiDirectoryNode" />
+              <item name="experiment" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -845,12 +823,12 @@
       <workItem from="1502812993719" duration="87000" />
       <workItem from="1502898339201" duration="4226000" />
       <workItem from="1502905265184" duration="133000" />
-      <workItem from="1502990136453" duration="2363000" />
+      <workItem from="1502990136453" duration="9309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107040000" />
+    <option name="totallyTimeSpent" value="113986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -863,8 +841,8 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42472267" sideWeight="0.5058565" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7052298" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8034865" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -924,6 +902,32 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -938,13 +942,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/VAR0.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/VAR1.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1024,13 +1021,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN0.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/VAR0.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1087,24 +1077,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/Statistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="39">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-3red.dat" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-1red.dat" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-2red.dat" />
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-9red.dat" />
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/resultsRun.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/result.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1123,13 +1099,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="67" column="25" lean-forward="true" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN0.tsv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1175,13 +1144,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/GeneticUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-80">
-          <caret line="99" column="23" lean-forward="false" selection-start-line="99" selection-start-column="23" selection-end-line="99" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/zoo/zoo-10-1tra.fdat">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1201">
@@ -1193,27 +1155,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/resultsRun.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" lean-forward="true" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/result.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="65" column="39" lean-forward="false" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -1229,17 +1170,9 @@
         <state relative-caret-position="-811">
           <caret line="19" column="19" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="19" />
           <folding>
-            <element signature="e#2071#2072#0" expanded="true" />
-            <element signature="e#2111#2112#0" expanded="true" />
+            <element signature="e#2071#2072#0" expanded="false" />
+            <element signature="e#2111#2112#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="87" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="87" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,11 +1194,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/TestSelectedChromosome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="583">
+          <caret line="63" column="9" lean-forward="false" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN1.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="true" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN0.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/resultsRun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="77" lean-forward="false" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-663">
+          <caret line="23" column="87" lean-forward="false" selection-start-line="23" selection-start-column="73" selection-end-line="23" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/Statistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="9" column="52" lean-forward="false" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN0.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1" lean-forward="true" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/GeneticUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-884">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/experiment/component/GenerateStatistics.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="96" column="78" lean-forward="false" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/resultsRun.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="72" lean-forward="true" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/result.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
