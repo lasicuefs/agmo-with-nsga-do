@@ -42,11 +42,6 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
             knn.buildClassifier(instances);
             evaluation.evaluateModel(knn, samples);
             accuracy = evaluation.correct();
-            //System.out.println("Instances: " + instances.numInstances());
-            //System.out.println("Accuracy: " + accuracy);
-
-
-
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(-1);

@@ -19,10 +19,12 @@ import java.util.List;
 public class SelectBestChromosome<S extends Solution<?>, Result> implements ExperimentComponent {
     private final Experiment<S, Result> experiment;
     private final String stratification;
+    private List<File> result;
 
     public SelectBestChromosome(Experiment<S, Result> experiment, String stratification) {
         this.experiment = experiment;
         this.stratification = stratification;
+        result = new ArrayList<>();
     }
 
     @Override
@@ -50,10 +52,11 @@ public class SelectBestChromosome<S extends Solution<?>, Result> implements Expe
 
             File baseDirectory = new File(experiment.getExperimentBaseDirectory());
             String datasets = baseDirectory.getParent();
-            File trainingFile = new File(datasets + "/" + problemTag + "/" + problemTag + "-" + stratification + "-" + problemFold + "tra.fdat");
+            File trainingFile = new File(datasets + "/" + problemTag + "/" + problemTag + "-" + stratification + "-" + problemFold + "tra.arff");
 
-            File result = new File(problemBase + "/" + problemTag + "-" + stratification + "-" + problemFold + "red.dat");
+            File result = new File(problemBase + "/" + problemTag + "-" + stratification + "-" + problemFold + "red.arff");
             GeneticUtil.createFileWithBitSet(selected, trainingFile, result);
+            this.result.add(result);
         }
     }
 
@@ -107,6 +110,10 @@ public class SelectBestChromosome<S extends Solution<?>, Result> implements Expe
         }
 
         return solutions.get(selectedRun).getVariable(selectedSolution);
+    }
+
+    public List<File> getSelectedChromosome() {
+        return result;
     }
 
     private class Run {

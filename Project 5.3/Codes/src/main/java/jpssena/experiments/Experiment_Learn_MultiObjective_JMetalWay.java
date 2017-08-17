@@ -2,6 +2,7 @@ package jpssena.experiments;
 
 import experiment.component.GenerateStatistics;
 import experiment.component.SelectBestChromosome;
+import experiment.component.TestSelectedChromosome;
 import experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
@@ -100,12 +101,25 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         Debug.println("Finished: Generating Statistics");
 
         Debug.println("Started: Select Best Chromosome");
+        List<File> result = null;
         try {
-            new SelectBestChromosome<>(experiment, stratification).run();
+            SelectBestChromosome<BinarySolution, List<BinarySolution>> best = new SelectBestChromosome<>(experiment, stratification);
+            best.run();
+            result = best.getSelectedChromosome();
         } catch (IOException e) {
             e.printStackTrace();
         }
         Debug.println("Finished: Select Best Chromosome");
+
+        try {
+            if (result == null) {
+                Debug.println("Result is null");
+            } else {
+                new TestSelectedChromosome<>(experiment, stratification).run();
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(List<ExperimentProblem<BinarySolution>> problems) {
@@ -181,8 +195,8 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         for (int i = foldStart; i <= foldFinish; i++) {
             //References the Training and the Test file [Assumes it already fixed for Weka]
             String baseName = directory.getAbsolutePath() + "\\" + directory.getName() + "-" + stratification + "-" + i;
-            File training   = new File(baseName + "tra.fdat");
-            File testing    = new File(baseName + "tst.fdat");
+            File training   = new File(baseName + "tra.arff");
+            File testing    = new File(baseName + "tst.arff");
 
             //If they don't exists it's probably because it's not fix yet.
             if (!training.exists())

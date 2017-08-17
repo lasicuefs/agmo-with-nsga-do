@@ -14,7 +14,7 @@ public class DatFixer {
      */
     public static File fixDatFormat(File original) {
         //Creates a file to save the modifications made
-        File fixed = new File(original.getParentFile() + "\\" + original.getName().substring(0, original.getName().length() - 4) + ".fdat");
+        File fixed = new File(original.getParentFile() + "\\" + original.getName().substring(0, original.getName().length() - 4) + ".arff");
 
         try {
             //Creates the reader for the original file and the writer for the parsed file
