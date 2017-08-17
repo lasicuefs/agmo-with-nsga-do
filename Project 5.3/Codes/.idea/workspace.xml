@@ -1,168 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/experiment/component/TestSelectedChromosome.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-1/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-10/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-2/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-3/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-4/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-5/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-6/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-7/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-8/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman-9/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-10red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-1red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-2red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-3red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-4red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-5red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-6red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-7red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-8red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/haberman-10-9red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/haberman/resultsRun.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-1/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-10/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-2/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-3/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-4/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-5/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-6/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-7/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-8/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/VAR0.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/VAR1.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo-9/VAR2.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/result.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/resultsRun.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-10red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-1red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-2red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-3red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-4red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-5red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-6red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-7red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-8red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/The Experiment 6/data/NSGAII/zoo/zoo-10-9red.dat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tra.fdat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/haberman/haberman-10-1tst.fdat" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/ZDTStudy.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/experiment/component/SelectBestChromosome$Run.class" afterPath="$PROJECT_DIR$/target/classes/experiment/component/SelectBestChromosome$Run.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/experiment/component/SelectBestChromosome.class" afterPath="$PROJECT_DIR$/target/classes/experiment/component/SelectBestChromosome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/experiment/util/ExperimentAlgorithmWithTime.class" afterPath="$PROJECT_DIR$/target/classes/experiment/util/ExperimentAlgorithmWithTime.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnMultiObjectivesSelectInstances.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/problem/LearnMultiObjectivesSelectInstances.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/util/DatFixer.class" afterPath="$PROJECT_DIR$/target/classes/util/DatFixer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java" afterPath="$PROJECT_DIR$/src/main/java/experiment/component/SelectBestChromosome.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiments/Experiment_Learn_MultiObjective_JMetalWay.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/problem/LearnMultiObjectivesSelectInstances.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/problem/LearnMultiObjectivesSelectInstances.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/util/DatFixer.java" afterPath="$PROJECT_DIR$/src/main/java/util/DatFixer.java" />
-    </list>
+    <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -348,12 +187,6 @@
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codes" type="462c0819:PsiDirectoryNode" />
               <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="haberman" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
@@ -1012,16 +845,15 @@
       <workItem from="1502812993719" duration="87000" />
       <workItem from="1502898339201" duration="4226000" />
       <workItem from="1502905265184" duration="133000" />
-      <workItem from="1502990136453" duration="2276000" />
+      <workItem from="1502990136453" duration="2363000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106953000" />
+    <option name="totallyTimeSpent" value="107040000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1036,7 +868,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
