@@ -40,7 +40,9 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
         try {
             Evaluation evaluation = new Evaluation(instances);
             knn.buildClassifier(instances);
+            //Classify the full into the few
             evaluation.evaluateModel(knn, samples);
+            //The number of correct answers
             accuracy = evaluation.correct();
         } catch (Exception e) {
             e.printStackTrace();

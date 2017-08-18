@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318400</millis>
+  <date>2017-08-18T14:19:51</date>
+  <millis>1503076791825</millis>
   <sequence>0</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Loggers configured with null</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318447</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792044</millis>
   <sequence>1</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -24,53 +24,97 @@
   <message>ExecuteAlgorithms: Preparing output directory</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318463</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792184</millis>
   <sequence>2</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-3, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN0.tsv</message>
+  <thread>15</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-7</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318463</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792184</millis>
   <sequence>3</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-7, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN0.tsv</message>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-3</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318463</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792184</millis>
   <sequence>4</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-8, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN0.tsv</message>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII, problem: car-7, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-7/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318463</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792200</millis>
   <sequence>5</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-7, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN0.tsv</message>
+  <thread>1</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-3</message>
 </record>
 <record>
-  <date>2017-08-17T18:11:58</date>
-  <millis>1503004318463</millis>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792200</millis>
   <sequence>6</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-8</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792200</millis>
+  <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: NSGAII, problem: car-3, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-3/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792200</millis>
+  <sequence>8</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-7</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792200</millis>
+  <sequence>9</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGAII, problem: car-8, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-8/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792215</millis>
+  <sequence>10</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
@@ -79,20 +123,31 @@
   <message> Running algorithm: NSGAII, problem: zoo-3, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:01</date>
-  <millis>1503004321863</millis>
-  <sequence>7</sequence>
+  <date>2017-08-18T14:19:52</date>
+  <millis>1503076792215</millis>
+  <sequence>11</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-6, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN0.tsv</message>
+  <message> Running algorithm: NSGAII, problem: zoo-7, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:01</date>
-  <millis>1503004321936</millis>
-  <sequence>8</sequence>
+  <date>2017-08-18T14:19:56</date>
+  <millis>1503076796044</millis>
+  <sequence>12</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-5</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:56</date>
+  <millis>1503076796044</millis>
+  <sequence>13</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
@@ -101,20 +156,42 @@
   <message> Running algorithm: NSGAII, problem: zoo-5, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:03</date>
-  <millis>1503004323809</millis>
-  <sequence>9</sequence>
+  <date>2017-08-18T14:19:56</date>
+  <millis>1503076796075</millis>
+  <sequence>14</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-9, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN0.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-6</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:03</date>
-  <millis>1503004323816</millis>
-  <sequence>10</sequence>
+  <date>2017-08-18T14:19:56</date>
+  <millis>1503076796075</millis>
+  <sequence>15</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: zoo-6, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:57</date>
+  <millis>1503076797434</millis>
+  <sequence>16</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-4</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:57</date>
+  <millis>1503076797434</millis>
+  <sequence>17</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
@@ -123,53 +200,42 @@
   <message> Running algorithm: NSGAII, problem: zoo-4, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:04</date>
-  <millis>1503004324850</millis>
-  <sequence>11</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-5, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:04</date>
-  <millis>1503004324862</millis>
-  <sequence>12</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-6, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:04</date>
-  <millis>1503004324895</millis>
-  <sequence>13</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-10, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:04</date>
-  <millis>1503004324931</millis>
-  <sequence>14</sequence>
+  <date>2017-08-18T14:19:57</date>
+  <millis>1503076797465</millis>
+  <sequence>18</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-10, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN0.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-9</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:04</date>
-  <millis>1503004324999</millis>
-  <sequence>15</sequence>
+  <date>2017-08-18T14:19:57</date>
+  <millis>1503076797465</millis>
+  <sequence>19</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: zoo-9, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:58</date>
+  <millis>1503076798778</millis>
+  <sequence>20</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-2</message>
+</record>
+<record>
+  <date>2017-08-18T14:19:58</date>
+  <millis>1503076798778</millis>
+  <sequence>21</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
@@ -178,20 +244,42 @@
   <message> Running algorithm: NSGAII, problem: zoo-2, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:06</date>
-  <millis>1503004326168</millis>
-  <sequence>16</sequence>
+  <date>2017-08-18T14:19:58</date>
+  <millis>1503076798887</millis>
+  <sequence>22</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-8, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN0.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-10</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:06</date>
-  <millis>1503004326262</millis>
-  <sequence>17</sequence>
+  <date>2017-08-18T14:19:58</date>
+  <millis>1503076798887</millis>
+  <sequence>23</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: zoo-10, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-08-18T14:20:00</date>
+  <millis>1503076800247</millis>
+  <sequence>24</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-1</message>
+</record>
+<record>
+  <date>2017-08-18T14:20:00</date>
+  <millis>1503076800247</millis>
+  <sequence>25</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
@@ -200,487 +288,178 @@
   <message> Running algorithm: NSGAII, problem: zoo-1, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:07</date>
-  <millis>1503004327356</millis>
-  <sequence>18</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-9, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:07</date>
-  <millis>1503004327506</millis>
-  <sequence>19</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-2, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:08</date>
-  <millis>1503004328453</millis>
-  <sequence>20</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-4, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:08</date>
-  <millis>1503004328501</millis>
-  <sequence>21</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-1, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:10</date>
-  <millis>1503004330955</millis>
-  <sequence>22</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-8, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:10</date>
-  <millis>1503004330955</millis>
-  <sequence>25</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-3, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:10</date>
-  <millis>1503004330955</millis>
-  <sequence>24</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-7, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:10</date>
-  <millis>1503004330955</millis>
-  <sequence>23</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-7, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:10</date>
-  <millis>1503004330955</millis>
+  <date>2017-08-18T14:20:00</date>
+  <millis>1503076800356</millis>
   <sequence>26</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-10, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN1.tsv</message>
+  <thread>12</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/zoo-8</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:12</date>
-  <millis>1503004332158</millis>
+  <date>2017-08-18T14:20:00</date>
+  <millis>1503076800356</millis>
   <sequence>27</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-6, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN1.tsv</message>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: zoo-8, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:13</date>
-  <millis>1503004333283</millis>
+  <date>2017-08-18T14:20:01</date>
+  <millis>1503076801575</millis>
   <sequence>28</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-9, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN1.tsv</message>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-10</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:14</date>
-  <millis>1503004334254</millis>
+  <date>2017-08-18T14:20:01</date>
+  <millis>1503076801575</millis>
   <sequence>29</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-9, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN1.tsv</message>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: car-10, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-10/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:14</date>
-  <millis>1503004334296</millis>
+  <date>2017-08-18T14:20:01</date>
+  <millis>1503076801700</millis>
   <sequence>30</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-2, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN1.tsv</message>
+  <thread>12</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-6</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:14</date>
-  <millis>1503004334379</millis>
+  <date>2017-08-18T14:20:01</date>
+  <millis>1503076801700</millis>
   <sequence>31</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-5, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN1.tsv</message>
+  <thread>12</thread>
+  <message> Running algorithm: NSGAII, problem: car-6, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-6/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:14</date>
-  <millis>1503004334382</millis>
+  <date>2017-08-18T14:22:07</date>
+  <millis>1503076927983</millis>
   <sequence>32</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-10, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN1.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-9</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:14</date>
-  <millis>1503004334423</millis>
+  <date>2017-08-18T14:22:07</date>
+  <millis>1503076927983</millis>
   <sequence>33</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-6, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN1.tsv</message>
+  <thread>15</thread>
+  <message> Running algorithm: NSGAII, problem: car-9, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-9/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:15</date>
-  <millis>1503004335476</millis>
+  <date>2017-08-18T14:22:08</date>
+  <millis>1503076928670</millis>
   <sequence>34</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-8, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN1.tsv</message>
+  <thread>1</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-5</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:16</date>
-  <millis>1503004336556</millis>
+  <date>2017-08-18T14:22:08</date>
+  <millis>1503076928686</millis>
   <sequence>35</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-3, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN1.tsv</message>
+  <thread>1</thread>
+  <message> Running algorithm: NSGAII, problem: car-5, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-5/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:17</date>
-  <millis>1503004337566</millis>
+  <date>2017-08-18T14:22:09</date>
+  <millis>1503076929139</millis>
   <sequence>36</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-1, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN1.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-2</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:17</date>
-  <millis>1503004337619</millis>
+  <date>2017-08-18T14:22:09</date>
+  <millis>1503076929139</millis>
   <sequence>37</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-4, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN1.tsv</message>
+  <thread>13</thread>
+  <message> Running algorithm: NSGAII, problem: car-2, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-2/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:17</date>
-  <millis>1503004337728</millis>
+  <date>2017-08-18T14:22:16</date>
+  <millis>1503076936311</millis>
   <sequence>38</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-2, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN1.tsv</message>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-1</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:17</date>
-  <millis>1503004337747</millis>
+  <date>2017-08-18T14:22:16</date>
+  <millis>1503076936311</millis>
   <sequence>39</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-5, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN1.tsv</message>
+  <thread>14</thread>
+  <message> Running algorithm: NSGAII, problem: car-1, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-1/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:17</date>
-  <millis>1503004337766</millis>
+  <date>2017-08-18T14:22:17</date>
+  <millis>1503076937717</millis>
   <sequence>40</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-1, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN1.tsv</message>
+  <message>Creating ./dataset-test/The Experiment 6/data/NSGAII/car-4</message>
 </record>
 <record>
-  <date>2017-08-17T18:12:18</date>
-  <millis>1503004338889</millis>
+  <date>2017-08-18T14:22:17</date>
+  <millis>1503076937764</millis>
   <sequence>41</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-4, run: 1, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:20</date>
-  <millis>1503004340169</millis>
-  <sequence>42</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-3, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-3/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:20</date>
-  <millis>1503004340169</millis>
-  <sequence>43</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-7, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-7/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:20</date>
-  <millis>1503004340170</millis>
-  <sequence>45</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-2, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-2/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:20</date>
-  <millis>1503004340170</millis>
-  <sequence>46</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-9, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-9/FUN2.tsv</message>
+  <message> Running algorithm: NSGAII, problem: car-4, run: 0, funFile: ./dataset-test/The Experiment 6/data/NSGAII/car-4/FUN0.tsv</message>
 </record>
-<record>
-  <date>2017-08-17T18:12:20</date>
-  <millis>1503004340169</millis>
-  <sequence>44</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-3, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-3/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:21</date>
-  <millis>1503004341505</millis>
-  <sequence>47</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-10, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-10/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:21</date>
-  <millis>1503004341520</millis>
-  <sequence>48</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-6, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-6/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:21</date>
-  <millis>1503004341520</millis>
-  <sequence>49</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-5, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-5/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:21</date>
-  <millis>1503004341568</millis>
-  <sequence>50</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-1, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-1/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:22</date>
-  <millis>1503004342680</millis>
-  <sequence>51</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-8, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-8/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:22</date>
-  <millis>1503004342698</millis>
-  <sequence>52</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: zoo-4, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/zoo-4/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:22</date>
-  <millis>1503004342706</millis>
-  <sequence>53</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-8, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-8/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:22</date>
-  <millis>1503004342784</millis>
-  <sequence>54</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-7, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-7/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:23</date>
-  <millis>1503004343733</millis>
-  <sequence>55</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-2, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-2/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:23</date>
-  <millis>1503004343858</millis>
-  <sequence>56</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-5, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-5/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:23</date>
-  <millis>1503004343913</millis>
-  <sequence>57</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-6, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-6/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:26</date>
-  <millis>1503004346082</millis>
-  <sequence>58</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-10, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-10/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:26</date>
-  <millis>1503004346113</millis>
-  <sequence>59</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-9, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-9/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:27</date>
-  <millis>1503004347141</millis>
-  <sequence>60</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-4, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-4/FUN2.tsv</message>
-</record>
-<record>
-  <date>2017-08-17T18:12:27</date>
-  <millis>1503004347157</millis>
-  <sequence>61</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGAII, problem: haberman-1, run: 2, funFile: ./dataset-test/The Experiment 6/data/NSGAII/haberman-1/FUN2.tsv</message>
-</record>
-</log>

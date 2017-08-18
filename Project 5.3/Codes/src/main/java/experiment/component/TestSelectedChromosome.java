@@ -50,7 +50,7 @@ public class TestSelectedChromosome<S extends Solution<?>, Result> implements Ex
 
             //Set the index for both of them
             if (reduced.classIndex() == -1) reduced.setClassIndex(reduced.numAttributes() - 1);
-            if (test.classIndex() == -1) test.setClassIndex(test.numAttributes() - 1);
+            if (test.classIndex()    == -1) test.setClassIndex(test.numAttributes() - 1);
 
             //Creates a Knn instance
             IBk knn = new IBk(1);
@@ -60,9 +60,10 @@ public class TestSelectedChromosome<S extends Solution<?>, Result> implements Ex
                 //Evaluates it
                 Evaluation evaluation = new Evaluation(reduced);
                 knn.buildClassifier(reduced);
+                //Classify the test into the reduced
                 evaluation.evaluateModel(knn, test);
 
-                //Gets the number of correct classifications
+                //Gets the number of correct classifications of test
                 accuracy = evaluation.correct();
             } catch (Exception e) {
                 e.printStackTrace();

@@ -31,13 +31,13 @@ import java.util.List;
 /**
  * Created by João Paulo on 19/07/2017.
  */
-public class Experiment_Learn_MultiObjective_JMetalWay {
+public class ExperimentLearnMultiObjective {
     private static final int INDEPENDENT_RUNS = 3;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
-    private static final String[] datasetNames = {"zoo", "haberman"};
+    private static final String[] datasetNames = {"zoo"};
 
     public static void main (String[] args) {
         //Extract the List of Problems that are going to be solved;
@@ -50,7 +50,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
 
         //Creates the Experiment
         Experiment<BinarySolution, List<BinarySolution>> experiment;
-        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("The Experiment 6") //Name
+        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("Experiment") //Name
                 .setAlgorithmList(algorithms)                                   //Algorithms created
                 .setProblemList(problems)                                       //Problems created
                 .setExperimentBaseDirectory(baseDirectory)                      //Directory to save results
@@ -112,6 +112,7 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         }
         Debug.println("Finished: Select Best Chromosome");
 
+        Debug.println("Started: Test Selected Chromosome");
         try {
             if (result == null) {
                 Debug.println("Result is null");
@@ -121,6 +122,8 @@ public class Experiment_Learn_MultiObjective_JMetalWay {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        Debug.println("Finished: Test Selected Chromosome");
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(List<ExperimentProblem<BinarySolution>> problems) {
