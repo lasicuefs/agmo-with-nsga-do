@@ -71,7 +71,7 @@ public class TestSelectedChromosome<S extends Solution<?>, Result> implements Ex
 
             //gets the accuracy in percentage
             accuracy = accuracy / test.numInstances();
-            System.out.println("Accuracy of " + problemTag + ".F: " + problemFold + "\t " + accuracy);
+            System.out.println("Accuracy of " + problemTag + ".F: " + problemFold + "\t " + accuracy + "\t-- " + experimentAlgorithm.getAlgorithmTag());
         }
     }
 }

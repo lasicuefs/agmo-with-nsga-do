@@ -1,10 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <eclipse-userlibraries>
+  <library name="Maven: com.github.fommil:jniloader:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/jniloader/1.1/jniloader-1.1.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:core:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/core/1.1/core-1.1.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:native_ref-java:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/native_ref-java/1.1/native_ref-java-1.1.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:native_system-java:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/native_system-java/1.1/native_system-java-1.1.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-linux-armhf:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-armhf/1.1/netlib-native_ref-linux-armhf-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-linux-i686:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-i686/1.1/netlib-native_ref-linux-i686-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-linux-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-linux-x86_64/1.1/netlib-native_ref-linux-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-osx-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-osx-x86_64/1.1/netlib-native_ref-osx-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-win-i686:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-i686/1.1/netlib-native_ref-win-i686-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_ref-win-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_ref-win-x86_64/1.1/netlib-native_ref-win-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-linux-armhf:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-armhf/1.1/netlib-native_system-linux-armhf-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-linux-i686:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-i686/1.1/netlib-native_system-linux-i686-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-linux-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-linux-x86_64/1.1/netlib-native_system-linux-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-osx-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-osx-x86_64/1.1/netlib-native_system-osx-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-win-i686:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-i686/1.1/netlib-native_system-win-i686-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.github.fommil.netlib:netlib-native_system-win-x86_64:natives:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/github/fommil/netlib/netlib-native_system-win-x86_64/1.1/netlib-native_system-win-x86_64-1.1-natives.jar" />
+  </library>
+  <library name="Maven: com.googlecode.matrix-toolkits-java:mtj:1.0.4">
+    <archive path="C:/Users/joaop/.m2/repository/com/googlecode/matrix-toolkits-java/mtj/1.0.4/mtj-1.0.4.jar" />
+  </library>
+  <library name="Maven: com.googlecode.netlib-java:netlib-java:1.1">
+    <archive path="C:/Users/joaop/.m2/repository/com/googlecode/netlib-java/netlib-java/1.1/netlib-java-1.1.jar" />
+  </library>
   <library name="Maven: commons-io:commons-io:2.4">
     <archive path="C:/Users/joaop/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar" />
   </library>
   <library name="Maven: de.erichseifert.vectorgraphics2d:VectorGraphics2D:0.11">
     <archive path="C:/Users/joaop/.m2/repository/de/erichseifert/vectorgraphics2d/VectorGraphics2D/0.11/VectorGraphics2D-0.11.jar" />
+  </library>
+  <library name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1">
+    <archive path="C:/Users/joaop/.m2/repository/net/sourceforge/f2j/arpack_combined_all/0.1/arpack_combined_all-0.1.jar" />
+  </library>
+  <library name="Maven: nz.ac.waikato.cms.weka.thirdparty:bounce:0.18">
+    <archive path="C:/Users/joaop/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/bounce/0.18/bounce-0.18.jar" />
+  </library>
+  <library name="Maven: nz.ac.waikato.cms.weka.thirdparty:java-cup-11b:2015.03.26">
+    <archive path="C:/Users/joaop/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b/2015.03.26/java-cup-11b-2015.03.26.jar" />
+  </library>
+  <library name="Maven: nz.ac.waikato.cms.weka.thirdparty:java-cup-11b-runtime:2015.03.26">
+    <archive path="C:/Users/joaop/.m2/repository/nz/ac/waikato/cms/weka/thirdparty/java-cup-11b-runtime/2015.03.26/java-cup-11b-runtime-2015.03.26.jar" />
+  </library>
+  <library name="Maven: nz.ac.waikato.cms.weka:weka-stable:3.8.0">
+    <archive path="C:/Users/joaop/.m2/repository/nz/ac/waikato/cms/weka/weka-stable/3.8.0/weka-stable-3.8.0.jar" />
   </library>
   <library name="Maven: org.apache.commons:commons-lang3:3.3.2">
     <archive path="C:/Users/joaop/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar" />
@@ -36,6 +105,10 @@
   </library>
   <library name="Maven: org.uma.jmetal:jmetal-problem:5.3">
     <archive path="C:/Users/joaop/.m2/repository/org/uma/jmetal/jmetal-problem/5.3/jmetal-problem-5.3.jar" />
+  </library>
+  <library name="R User Library" />
+  <library name="R Skeletons">
+    <archive path="C:/Users/joaop/.IntelliJIdea2017.2/system/r_skeletons/641950647" />
   </library>
 </eclipse-userlibraries>
 

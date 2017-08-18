@@ -17,5 +17,30 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.uma.jmetal:jmetal-algorithm:5.3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.uma.jmetal:jmetal-exec:5.3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.uma.jmetal:jmetal:5.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: nz.ac.waikato.cms.weka:weka-stable:3.8.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: nz.ac.waikato.cms.weka.thirdparty:java-cup-11b:2015.03.26"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: nz.ac.waikato.cms.weka.thirdparty:java-cup-11b-runtime:2015.03.26"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: nz.ac.waikato.cms.weka.thirdparty:bounce:0.18"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.googlecode.matrix-toolkits-java:mtj:1.0.4"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-osx-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:native_ref-java:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil:jniloader:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-linux-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-linux-i686:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-win-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-win-i686:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_ref-linux-armhf:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-osx-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:native_system-java:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-linux-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-linux-i686:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-linux-armhf:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-win-x86_64:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:netlib-native_system-win-i686:natives:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: net.sourceforge.f2j:arpack_combined_all:0.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.googlecode.netlib-java:netlib-java:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:core:1.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R User Library"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R Skeletons"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
