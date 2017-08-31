@@ -1,4 +1,4 @@
-package util;
+package jpssena.util;
 
 /**
  * Created by João Paulo on 21/07/2017.

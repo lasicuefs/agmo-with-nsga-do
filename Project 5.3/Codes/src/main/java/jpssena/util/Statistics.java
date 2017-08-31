@@ -1,4 +1,4 @@
-package util;
+package jpssena.util;
 
 import java.util.List;
 

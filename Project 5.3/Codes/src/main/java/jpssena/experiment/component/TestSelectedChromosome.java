@@ -1,4 +1,4 @@
-package experiment.component;
+package jpssena.experiment.component;
 
 import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.experiment.Experiment;

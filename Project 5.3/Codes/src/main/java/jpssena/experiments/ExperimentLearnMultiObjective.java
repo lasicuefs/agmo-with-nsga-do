@@ -1,9 +1,10 @@
 package jpssena.experiments;
 
-import experiment.component.GenerateStatistics;
-import experiment.component.SelectBestChromosome;
-import experiment.component.TestSelectedChromosome;
-import experiment.util.ExperimentAlgorithmWithTime;
+import jpssena.experiment.component.GenerateStatistics;
+import jpssena.experiment.component.SelectBestChromosome;
+import jpssena.experiment.component.TestSelectedChromosome;
+import jpssena.experiment.util.ExperimentAlgorithmWithTime;
+import jpssena.algorithm.multiobjective.NSGA_DOBuilder;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
@@ -16,8 +17,8 @@ import org.uma.jmetal.util.experiment.ExperimentBuilder;
 import org.uma.jmetal.util.experiment.component.*;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
 import org.uma.jmetal.util.experiment.util.ExperimentProblem;
-import util.DatFixer;
-import util.Debug;
+import jpssena.util.DatFixer;
+import jpssena.util.Debug;
 import weka.core.Instances;
 
 import java.io.BufferedReader;
@@ -37,7 +38,7 @@ public class ExperimentLearnMultiObjective {
     private static final int foldFinish = 10;
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
-    private static final String[] datasetNames = {"zoo"};
+    private static final String[] datasetNames = {"zoo", "haberman"};
 
     public static void main (String[] args) {
         //Extract the List of Problems that are going to be solved;
@@ -92,13 +93,11 @@ public class ExperimentLearnMultiObjective {
         //-----------------------------------------
 
         Debug.println("Started: Generating Statistics");
-
         try {
             new GenerateStatistics<>(experiment).run();
         } catch (IOException e) {
             e.printStackTrace();
         }
-
         Debug.println("Finished: Generating Statistics");
 
         Debug.println("Started: Select Best Chromosome");
@@ -134,14 +133,14 @@ public class ExperimentLearnMultiObjective {
             Problem<BinarySolution> problem = exp_problem.getProblem();
 
             Algorithm<List<BinarySolution>> algorithm = new NSGAIIBuilder<>(
-                    problem,                                     //The problem this algorithm is going to solve in the experiment
+                    problem,                                     //The problem this algorithm is going to solve in the jpssena.experiment
                     new HUXCrossover(0.9),      //Using HUXCrossover with 0.9 probability
                     new BitFlipMutation(0.2))   //Using BitFlipMutation with 0.2 probability
                     .setMaxEvaluations(1000)                     //Using 1000 max evaluations
                     .setPopulationSize(100)                      //Using a population size of 100
                     .build();
 
-            //Adds this experiment algorithm to the algorithm list.
+            //Adds this jpssena.experiment algorithm to the algorithm list.
             //The ExperimentAlgorithm with time is a derivation of Experiment algorithm. The difference is that this one saves the execution time as well
             algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
 

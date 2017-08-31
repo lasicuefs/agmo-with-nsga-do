@@ -1,4 +1,4 @@
-package experiment.util;
+package jpssena.experiment.util;
 
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.solution.Solution;

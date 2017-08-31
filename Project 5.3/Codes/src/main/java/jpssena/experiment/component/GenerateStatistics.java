@@ -1,11 +1,11 @@
-package experiment.component;
+package jpssena.experiment.component;
 
 import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentComponent;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
-import util.GeneticUtil;
-import util.Statistics;
+import jpssena.util.GeneticUtil;
+import jpssena.util.Statistics;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -18,7 +18,7 @@ import java.util.List;
 
 /**
  * This component will generate mean and standard deviation for every single run and an overall mean and sd for every problem solved.
- * This modules can be used after an experiment. But it only needs the function file with the objectives values after the experiment is executed.
+ * This modules can be used after an jpssena.experiment. But it only needs the function file with the objectives values after the jpssena.experiment is executed.
  * @param <S> The Solution Type
  * @param <Result> The Result Type
  */

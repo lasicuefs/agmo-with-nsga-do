@@ -1,6 +1,4 @@
-package util;
-
-import weka.core.Instances;
+package jpssena.util;
 
 import java.io.*;
 import java.util.ArrayList;

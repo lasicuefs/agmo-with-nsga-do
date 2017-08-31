@@ -1,10 +1,10 @@
-package experiment.component;
+package jpssena.experiment.component;
 
 import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentComponent;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
-import util.GeneticUtil;
+import jpssena.util.GeneticUtil;
 
 import java.io.File;
 import java.io.IOException;
@@ -18,8 +18,8 @@ import java.util.List;
  */
 
 /**
- * This component selects the best chromosome after the experiment is finished;
- * It needs the function and the variable files generated during the experiment.
+ * This component selects the best chromosome after the jpssena.experiment is finished;
+ * It needs the function and the variable files generated during the jpssena.experiment.
  * @param <S> The Solution Type
  * @param <Result> The Result Type
  */
