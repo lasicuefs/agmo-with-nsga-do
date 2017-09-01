@@ -1,5 +1,7 @@
 package jpssena.metaheuristics;
 
+import jpssena.algorithm.multiobjective.NSGA_DO;
+import jpssena.algorithm.multiobjective.NSGA_DOBuilder;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
@@ -39,7 +41,7 @@ public class Learn_MultiObjective_main_SelectInstances implements Callable {
         String dataSetName = "zoo";
         String dataSetLocation = "./dataset-test/" + dataSetName + "/";
 
-        String name = dataSetLocation + dataSetName + "-" + "10" + "-" + Integer.toString(1) + "tra.fdat";
+        String name = dataSetLocation + dataSetName + "-" + "10" + "-" + Integer.toString(1) + "tra.arff";
         BufferedReader reader = new BufferedReader(new FileReader(name));
         Instances training = new Instances(reader);
 
@@ -62,7 +64,7 @@ public class Learn_MultiObjective_main_SelectInstances implements Callable {
         mutationOperator  = new BitFlipMutation(0.2);
 
         //Setup the algorithm
-        algorithm = new NSGAIIBuilder<>(problem, crossoverOperator, mutationOperator)
+        algorithm = new NSGA_DOBuilder<>(problem, crossoverOperator, mutationOperator)
                 .setPopulationSize(100)
                 .setMaxEvaluations(1000)
                 .build();

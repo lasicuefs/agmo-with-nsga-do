@@ -2,6 +2,7 @@ package jpssena.algorithm.util;
 
 import org.uma.jmetal.solution.Solution;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -11,7 +12,7 @@ public class SolutionSpacing {
 
     /**
      * Call this function to calculate the ideal space between the non dominated solutions.
-     * This is onde of the first steps in the NSGA-DO Algorithm
+     * This is one of the first steps in the NSGA-DO Algorithm
      * @param nonDominated List of non dominated solutions. Pareto front 0;
      */
     public static <S extends Solution<?>> void findBestSpacing(List<S> nonDominated) {
@@ -54,7 +55,7 @@ public class SolutionSpacing {
             GxFunction GkFunction = new GxFunction(Ak);
 
             //The Gx function is needed later
-            //The Lk is the distance between these to solutions, this could have been found using the forumla:
+            //The Lk is the distance between these to solutions, this could have been found using the formula:
             //Sqrt[(x2 - x1)^2 + (y2 - y1)^2)]
             double Lk = GkFunction.result(xj) - GkFunction.result(xi);
             //There's no such thing as a negative distance
@@ -66,12 +67,59 @@ public class SolutionSpacing {
             System.out.println("Lk: " + Lk);
             System.out.println("GkFunction(" + xj + "): " + GkFunction.result(xj));
             System.out.println("GkFunction(" + xi + "): " + GkFunction.result(xi));
+
             accumulator += Lk;
         }
 
         //The ideal spacing is the sum of all Lk divided by the number of results;
         double E = accumulator/numOfSolutions;
         System.out.println(E);
+    }
 
+    /**
+     * Finds the ideal points in the pareto front that are equally spaced.
+     * @param bestSpacing the best spacing that can be calculated using the findBestSpacing function
+     * @param nonDominated The list of non dominated solutions
+     * @return a list of ideal points
+     */
+    public static <S extends Solution<?>> List<Point> findIdealPoints(double bestSpacing, List<S> nonDominated, double[] Ak, double[] Bk) {
+        List<Point> idealPoints = new ArrayList<>();
+
+        double lengthCovered = 0;
+        double currentFunctionLength = 0;
+        int currentLengthChange = 2;
+        int currentRealPoint = 2;
+
+        for (int k = 0; k < nonDominated.size(); k++) {
+            Solution si = nonDominated.get(currentRealPoint);
+            Solution sj = nonDominated.get(currentRealPoint - 1);
+            double distance = calculateDistanceBetweenSolutions(si, sj);
+
+            while ((lengthCovered + distance) > bestSpacing && currentLengthChange == nonDominated.size()) {
+                double idealX = 0;
+
+                if (lengthCovered != 0) {
+                    //idealX =
+                } else {
+
+                }
+            }
+        }
+
+
+        return idealPoints;
+    }
+
+    private static double calculateDistanceBetweenSolutions(Solution si, Solution sj) {
+        double xi = si.getObjective(1)*-1;
+        double yi = si.getObjective(0)*-1;
+
+        double xj = sj.getObjective(1)*-1;
+        double yj = sj.getObjective(0)*-1;
+
+        double dx = Math.pow(xj - xi, 2);
+        double dy = Math.pow(yj - yi, 2);
+
+        return Math.sqrt(dx + dy);
     }
 }
