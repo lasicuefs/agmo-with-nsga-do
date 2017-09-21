@@ -117,7 +117,7 @@ public class RankingAndDistanceOrientedSelection<S extends Solution<?>> implemen
             i++;
         }
 
-        //This is a trick that is going to be used before refactoring, since the comparator needs a "attribute" 'IdealSpace'
+        //This is a trick that is going to be used before refactoring, since the comparator needs a "attribute" 'IdealDistance'
         //we call this to set this attribute in all of the solutions.
         //ATTENTION this line is not a part of the NSGA-DO default behavior
         //TODO Refactor this HackFix so this part stops being a spaghetti code
