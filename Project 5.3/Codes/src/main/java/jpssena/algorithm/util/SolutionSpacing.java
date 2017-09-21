@@ -34,14 +34,20 @@ public class SolutionSpacing {
         for (Solution s : nonDominated) {
             Debug.println("> " + (s.getObjective(1) * -1) + " " + (s.getObjective(0) * -1));
         }
+
+        //At first we need to sort the solutions by one of it's objectives, in the thesis he says to use the "X" value
+        //Meaning reduction, because i believe that the accuracy is something derived from the reduction
         Collections.sort(nonDominated, new SolutionXComparator<>());
+
+
         Debug.println("After:");
         for (Solution s : nonDominated) {
             Debug.println("> " + (s.getObjective(1) * -1) + " " + (s.getObjective(0) * -1));
         }
 
+        //Then we remove duplicated solutions because they are not going to be useful
         nonDominated = removeDuplicatedSolutions(nonDominated);
-
+        //If we do not have enough solutions, print an error then return
         if (nonDominated.size() < 2) {
             Debug.println("Few Non Dominated Solution in this interaction: " + nonDominated.size());
             return 0;
@@ -50,7 +56,7 @@ public class SolutionSpacing {
         //Accumulator of the Sum
         double accumulator = 0;
 
-        //The number of solutions in this generations.
+        //The number of solutions in this generation.
         int numOfSolutions = nonDominated.size();
 
         //Now we are going to generate K (nS - 1) line equations.
@@ -88,9 +94,11 @@ public class SolutionSpacing {
             //The Gx function is needed later
             //The Lk is the distance between these to solutions, this could have been found using the formula:
             //Sqrt[(x2 - x1)^2 + (y2 - y1)^2)]
+            //But in the thesis he wants us to use the Gk function
             double Lk = GkFunction.result(xj) - GkFunction.result(xi);
             //There's no such thing as a negative distance
             Lk = Math.abs(Lk);
+
             Debug.println("Si> X: " + xi + " <> Y: " + yi);
             Debug.println("Sj> X: " + xj + " <> Y: " + yj);
             Debug.println("Ak: " + Ak);
@@ -99,10 +107,11 @@ public class SolutionSpacing {
             Debug.println("GkFunction(" + xj + "): " + GkFunction.result(xj));
             Debug.println("GkFunction(" + xi + "): " + GkFunction.result(xi));
 
+            //Then, we add the distance into the accumulator
             accumulator += Lk;
         }
 
-        //The ideal spacing is the sum of all Lk divided by the number of results;
+        //The ideal spacing is the sum of all Lk divided by the number of solutions;
         double E = accumulator/(numOfSolutions - 1);
         Debug.println("Ideal Spacing: " + E);
         return E;
@@ -116,10 +125,13 @@ public class SolutionSpacing {
      * @return a list of ideal points
      */
     public static <S extends Solution<?>> List<Point> findIdealPoints(double bestSpacing, List<S> nonDominated) {
+        //Once again we sort the solution list using the X axis
         Collections.sort(nonDominated, new SolutionXComparator<>());
 
+        //Create a list to store the ideal points that are going to be found
         List<Point> idealPoints = new ArrayList<>();
 
+        //if the list has less than 2 solutions, add the solutions as ideal points and then return
         if (nonDominated.size() < 2) {
             for (S solution : nonDominated) {
                 idealPoints.add(makePoint(solution));
@@ -127,14 +139,26 @@ public class SolutionSpacing {
             return idealPoints;
         }
 
+        //At start add the first solution as an ideal point
         idealPoints.add(makePoint(nonDominated.get(0)));
 
+        //Creates a variable to know when we should create a ideal point, basically this is going to be how long we
+        //walked in the pareto front
         double lengthCovered = 0;
 
+        //If we have more than 2 solutions
         if (nonDominated.size() > 2) {
+            //For each solution, we want to take solutions as pairs
             for (int k = 0; k < nonDominated.size() - 1; k++) {
+                //Gets the pair of solutions
                 S si = nonDominated.get(k);
                 S sj = nonDominated.get(k + 1);
+
+                //Because solutions are like points in space, we can create a line that unites these solutions
+                //Our main point here is to check that if between these solutions there is a ideal point.
+                //To do that, we need to first check the distance between these points
+
+
                 double xi = si.getObjective(1) * -1;
                 double yi = si.getObjective(0) * -1;
 

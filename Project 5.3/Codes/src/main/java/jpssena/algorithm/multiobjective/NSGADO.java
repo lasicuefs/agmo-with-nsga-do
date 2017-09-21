@@ -16,12 +16,16 @@ import java.util.List;
 
 /**
  * Created by João Paulo on 29/08/2017.
+ * This class is the NSGA-DO Java Implementation
+ * Most of the code in this class is a copy of the NSGA-II code given that the NSGA-DO is a modification of the NSGA-II.
+ * The changed part is commented in the code
  */
 public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, List<S>> {
     private final int maxEvaluations;
     private final SolutionListEvaluator<S> evaluator;
     private int evaluations;
 
+    //Default Constructor
     public NSGADO(Problem<S> problem, int maxEvaluations, int populationSize,
                   CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator,
                   SelectionOperator<List<S>, S> selectionOperator, SolutionListEvaluator<S> evaluator) {
@@ -36,21 +40,25 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
         this.evaluator = evaluator;
     }
 
+    //Copied Method
     @Override
     protected void initProgress() {
         evaluations = getMaxPopulationSize();
     }
 
+    //Copied Method
     @Override
     protected void updateProgress() {
         evaluations += getMaxPopulationSize();
     }
 
+    //Copied Method
     @Override
     protected boolean isStoppingConditionReached() {
         return evaluations >= maxEvaluations;
     }
 
+    //Copied Method
     @Override
     protected List<S> evaluatePopulation(List<S> population) {
         population = evaluator.evaluate(population, getProblem());
@@ -65,19 +73,22 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
      */
     @Override
     protected List<S> replacement(List<S> population, List<S> offspringPopulation) {
-
+        //Creates a list that will contains both the parent and the offspring population
         List<S> jointPopulation = new ArrayList<>();
+        //Puts the parent into it
         jointPopulation.addAll(population);
+        //And then the offspring
         jointPopulation.addAll(offspringPopulation);
-        System.out.println("Replacement " + population.size() + " ---- " + offspringPopulation.size() + " --- " + jointPopulation.size());
 
-        //This new Ranking will do the NSGA-DO trick
+        //This new Ranking class will do the NSGA-DO trick
         RankingAndDistanceOrientedSelection<S> rankingAndIdealSelection
                 = new RankingAndDistanceOrientedSelection<>(getMaxPopulationSize());
 
+        //Here we tells the framework to execute and select all the solution it should. (recommended to open the execute() method)
         return rankingAndIdealSelection.execute(jointPopulation);
     }
 
+    //Copied Method
     @Override
     protected List<S> selection(List<S> population) {
         System.out.println("Population size: " + population.size());
@@ -92,20 +103,24 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
         return matingPopulation;
     }
 
+    //Copied Method
     @Override
     public List<S> getResult() {
         return getNonDominatedSolutions(getPopulation());
     }
 
+    //Copied Method
     private List<S> getNonDominatedSolutions(List<S> solutions) {
         return SolutionListUtils.getNondominatedSolutions(solutions);
     }
 
+    //Name changed.
     @Override
     public String getName() {
         return "NSGA-DO";
     }
 
+    //Description changed
     @Override
     public String getDescription() {
         return "Nondominated Sorting Genetic Algorithm Distance Oriented";
