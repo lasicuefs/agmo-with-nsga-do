@@ -4,7 +4,6 @@ import jpssena.experiment.component.GenerateStatistics;
 import jpssena.experiment.component.SelectBestChromosome;
 import jpssena.experiment.component.TestSelectedChromosome;
 import jpssena.experiment.util.ExperimentAlgorithmWithTime;
-import jpssena.algorithm.multiobjective.NSGA_DOBuilder;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;

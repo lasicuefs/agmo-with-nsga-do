@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by João Paulo on 31/08/2017.
  */
-public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<NSGA_DO<S>> {
+public class NSGADOBuilder<S extends Solution<?>> implements AlgorithmBuilder<NSGADO<S>> {
     private final Problem<S> problem;
     private int maxEvaluations;
     private int populationSize;
@@ -26,7 +26,7 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
     private SelectionOperator<List<S>, S> selectionOperator;
     private SolutionListEvaluator<S> evaluator;
 
-    public NSGA_DOBuilder(Problem<S> problem, CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator) {
+    public NSGADOBuilder(Problem<S> problem, CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator) {
         this.problem = problem;
         maxEvaluations = 25000;
         populationSize = 100;
@@ -36,7 +36,7 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
         evaluator = new SequentialSolutionListEvaluator<>();
     }
 
-    public NSGA_DOBuilder<S> setMaxEvaluations(int maxEvaluations) {
+    public NSGADOBuilder<S> setMaxEvaluations(int maxEvaluations) {
         if (maxEvaluations < 0)
             throw new JMetalException("maxEvaluations is negative: " + maxEvaluations);
 
@@ -44,7 +44,7 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
         return this;
     }
 
-    public NSGA_DOBuilder<S> setPopulationSize(int populationSize) {
+    public NSGADOBuilder<S> setPopulationSize(int populationSize) {
         if (populationSize < 0)
             throw new JMetalException("Population size is negative: " + populationSize);
 
@@ -52,7 +52,7 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
         return this;
     }
 
-    public NSGA_DOBuilder<S> setSelectionOperator(SelectionOperator<List<S>, S> selectionOperator) {
+    public NSGADOBuilder<S> setSelectionOperator(SelectionOperator<List<S>, S> selectionOperator) {
         if (selectionOperator == null)
             throw new JMetalException("Selection Operator is null");
 
@@ -60,7 +60,7 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
         return this;
     }
 
-    public NSGA_DOBuilder<S> setSolutionListEvaluator(SolutionListEvaluator<S> evaluator) {
+    public NSGADOBuilder<S> setSolutionListEvaluator(SolutionListEvaluator<S> evaluator) {
         if (evaluator == null)
             throw new JMetalException("Evaluator is null");
 
@@ -69,8 +69,8 @@ public class NSGA_DOBuilder<S extends Solution<?>> implements AlgorithmBuilder<N
     }
 
     @Override
-    public NSGA_DO<S> build() {
-        NSGA_DO<S> algorithm = new NSGA_DO<>(problem, maxEvaluations, populationSize, crossoverOperator, mutationOperator, selectionOperator, evaluator);
+    public NSGADO<S> build() {
+        NSGADO<S> algorithm = new NSGADO<>(problem, maxEvaluations, populationSize, crossoverOperator, mutationOperator, selectionOperator, evaluator);
         return algorithm;
     }
 

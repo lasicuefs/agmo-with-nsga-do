@@ -1,5 +1,6 @@
 package jpssena.algorithm.multiobjective;
 
+import jpssena.algorithm.util.comparator.RankingAndDistanceOrientedComparator;
 import jpssena.operator.selection.RankingAndDistanceOrientedSelection;
 import org.uma.jmetal.algorithm.impl.AbstractGeneticAlgorithm;
 import org.uma.jmetal.operator.CrossoverOperator;
@@ -16,17 +17,17 @@ import java.util.List;
 /**
  * Created by João Paulo on 29/08/2017.
  */
-public class NSGA_DO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, List<S>> {
+public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, List<S>> {
     private final int maxEvaluations;
     private final SolutionListEvaluator<S> evaluator;
     private int evaluations;
 
-    public NSGA_DO(Problem<S> problem, int maxEvaluations, int populationSize,
-                   CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator,
-                   SelectionOperator<List<S>, S> selectionOperator, SolutionListEvaluator<S> evaluator) {
+    public NSGADO(Problem<S> problem, int maxEvaluations, int populationSize,
+                  CrossoverOperator<S> crossoverOperator, MutationOperator<S> mutationOperator,
+                  SelectionOperator<List<S>, S> selectionOperator, SolutionListEvaluator<S> evaluator) {
         super(problem);
         this.maxEvaluations = maxEvaluations;
-        setMaxPopulationSize(populationSize); ;
+        setMaxPopulationSize(populationSize);
 
         this.crossoverOperator = crossoverOperator;
         this.mutationOperator = mutationOperator;
@@ -64,14 +65,31 @@ public class NSGA_DO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, 
      */
     @Override
     protected List<S> replacement(List<S> population, List<S> offspringPopulation) {
+
         List<S> jointPopulation = new ArrayList<>();
         jointPopulation.addAll(population);
         jointPopulation.addAll(offspringPopulation);
+        System.out.println("Replacement " + population.size() + " ---- " + offspringPopulation.size() + " --- " + jointPopulation.size());
 
         //This new Ranking will do the NSGA-DO trick
         RankingAndDistanceOrientedSelection<S> rankingAndIdealSelection
-                = new RankingAndDistanceOrientedSelection<S>(getMaxPopulationSize());
+                = new RankingAndDistanceOrientedSelection<>(getMaxPopulationSize());
+
         return rankingAndIdealSelection.execute(jointPopulation);
+    }
+
+    @Override
+    protected List<S> selection(List<S> population) {
+        System.out.println("Population size: " + population.size());
+        List<S> matingPopulation = new ArrayList<>(population.size());
+        for (int i = 0; i < getMaxPopulationSize(); i++) {
+            S solution = selectionOperator.execute(population);
+            matingPopulation.add(solution);
+        }
+
+        System.out.println("Times it was the same ranking: " + RankingAndDistanceOrientedComparator.times);
+        RankingAndDistanceOrientedComparator.times = 0;
+        return matingPopulation;
     }
 
     @Override

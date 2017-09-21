@@ -1,10 +1,14 @@
 package jpssena.algorithm.util.comparator;
 
+import jpssena.util.Debug;
 import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.comparator.RankingComparator;
+import org.uma.jmetal.util.solutionattribute.Ranking;
+import org.uma.jmetal.util.solutionattribute.impl.DominanceRanking;
 
 import java.io.Serializable;
 import java.util.Comparator;
+import java.util.List;
 
 /**
  * Created by João Paulo on 30/08/2017.
@@ -13,7 +17,10 @@ import java.util.Comparator;
  * then the crowding distance is used.
  */
 public class RankingAndDistanceOrientedComparator <S extends Solution<?>> implements Comparator<S>, Serializable {
-    private final Comparator<S> rankComparator = new RankingComparator<S>();
+    private final Comparator<S> rankComparator = new RankingComparator<>();
+    private final Comparator<S> distanceComparator = new DistanceOrientedComparator<>();
+    public static int times = 0;
+
 
     /**
      * Compares two solutions.
@@ -25,10 +32,10 @@ public class RankingAndDistanceOrientedComparator <S extends Solution<?>> implem
      */
     @Override
     public int compare(S solution1, S solution2) {
-        int result = rankComparator.compare(solution1, solution2) ;
+        int result = rankComparator.compare(solution1, solution2);
         if (result == 0) {
-            System.out.println("Needs more magic - Selection Comparator");
-            //TODO create the magic here
+            times++;
+            return distanceComparator.compare(solution1, solution2);
         }
 
         return result;

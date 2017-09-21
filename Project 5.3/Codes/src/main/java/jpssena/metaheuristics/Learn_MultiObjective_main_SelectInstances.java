@@ -1,10 +1,8 @@
 package jpssena.metaheuristics;
 
-import jpssena.algorithm.multiobjective.NSGA_DO;
-import jpssena.algorithm.multiobjective.NSGA_DOBuilder;
+import jpssena.algorithm.multiobjective.NSGADOBuilder;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
-import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
 import org.uma.jmetal.operator.CrossoverOperator;
 import org.uma.jmetal.operator.MutationOperator;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
@@ -64,7 +62,7 @@ public class Learn_MultiObjective_main_SelectInstances implements Callable {
         mutationOperator  = new BitFlipMutation(0.2);
 
         //Setup the algorithm
-        algorithm = new NSGA_DOBuilder<>(problem, crossoverOperator, mutationOperator)
+        algorithm = new NSGADOBuilder<>(problem, crossoverOperator, mutationOperator)
                 .setPopulationSize(100)
                 .setMaxEvaluations(1000)
                 .build();
