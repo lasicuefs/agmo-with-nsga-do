@@ -1,5 +1,6 @@
 package jpssena.experiments;
 
+import jpssena.algorithm.multiobjective.NSGADOBuilder;
 import jpssena.experiment.component.GenerateStatistics;
 import jpssena.experiment.component.SelectBestChromosome;
 import jpssena.experiment.component.TestSelectedChromosome;
@@ -7,8 +8,10 @@ import jpssena.experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
 import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
+import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
+import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.experiment.Experiment;
@@ -131,7 +134,7 @@ public class ExperimentLearnMultiObjective {
         for (ExperimentProblem<BinarySolution> exp_problem : problems) {
             Problem<BinarySolution> problem = exp_problem.getProblem();
 
-            Algorithm<List<BinarySolution>> algorithm = new NSGAIIBuilder<>(
+            Algorithm<List<BinarySolution>> nsga_do = new NSGADOBuilder<>(
                     problem,                                     //The problem this algorithm is going to solve in the jpssena.experiment
                     new HUXCrossover(0.9),      //Using HUXCrossover with 0.9 probability
                     new BitFlipMutation(0.2))   //Using BitFlipMutation with 0.2 probability
@@ -141,10 +144,10 @@ public class ExperimentLearnMultiObjective {
 
             //Adds this jpssena.experiment algorithm to the algorithm list.
             //The ExperimentAlgorithm with time is a derivation of Experiment algorithm. The difference is that this one saves the execution time as well
-            algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(algorithm, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_do, exp_problem.getTag()));
 
-            /*
-            Algorithm<List<BinarySolution>> nsgaiii = new NSGAIIIBuilder<>(
+
+            Algorithm<List<BinarySolution>> nsga_iii = new NSGAIIIBuilder<>(
                     problem)
                     .setCrossoverOperator(new HUXCrossover(0.9))
                     .setMutationOperator(new BitFlipMutation(0.2))
@@ -153,7 +156,17 @@ public class ExperimentLearnMultiObjective {
                     .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsgaiii, exp_problem.getTag()));*/
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_iii, exp_problem.getTag()));
+
+            Algorithm<List<BinarySolution>> nsga_ii = new NSGAIIBuilder<>(
+                    problem,                                     //The problem this algorithm is going to solve in the jpssena.experiment
+                    new HUXCrossover(0.9),      //Using HUXCrossover with 0.9 probability
+                    new BitFlipMutation(0.2))   //Using BitFlipMutation with 0.2 probability
+                    .setMaxEvaluations(1000)                     //Using 1000 max evaluations
+                    .setPopulationSize(100)                      //Using a population size of 100
+                    .build();
+
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));
         }
 
         return algorithms;
@@ -169,7 +182,7 @@ public class ExperimentLearnMultiObjective {
         File folder = new File(baseDirectory);
 
         if (!folder.exists() || !folder.isDirectory() || folder.listFiles() == null) {
-            System.out.println("Folder doesn't exists or is empty");
+            System.out.println("Folder doesn't exist or is empty");
         } else {
             //For each dataset name specified, go into the folder and create problems
             for (String datasetName : datasetNames) {

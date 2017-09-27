@@ -91,15 +91,12 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
     //Copied Method
     @Override
     protected List<S> selection(List<S> population) {
-        System.out.println("Population size: " + population.size());
         List<S> matingPopulation = new ArrayList<>(population.size());
         for (int i = 0; i < getMaxPopulationSize(); i++) {
             S solution = selectionOperator.execute(population);
             matingPopulation.add(solution);
         }
 
-        System.out.println("Times it was the same ranking: " + RankingAndDistanceOrientedComparator.times);
-        RankingAndDistanceOrientedComparator.times = 0;
         return matingPopulation;
     }
 

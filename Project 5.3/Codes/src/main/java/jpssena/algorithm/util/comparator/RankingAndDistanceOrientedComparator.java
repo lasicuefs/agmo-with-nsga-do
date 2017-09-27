@@ -19,7 +19,6 @@ import java.util.List;
 public class RankingAndDistanceOrientedComparator <S extends Solution<?>> implements Comparator<S>, Serializable {
     private final Comparator<S> rankComparator = new RankingComparator<>();
     private final Comparator<S> distanceComparator = new DistanceOrientedComparator<>();
-    public static int times = 0;
 
 
     /**
@@ -34,7 +33,6 @@ public class RankingAndDistanceOrientedComparator <S extends Solution<?>> implem
     public int compare(S solution1, S solution2) {
         int result = rankComparator.compare(solution1, solution2);
         if (result == 0) {
-            times++;
             return distanceComparator.compare(solution1, solution2);
         }
 
