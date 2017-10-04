@@ -1,40 +1,76 @@
 package jpssena.algorithm.util;
 
+import org.uma.jmetal.solution.Solution;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
- * Created by João Paulo on 30/08/2017.
+ * Created by João Paulo on 04/10/2017.
  */
-public class Point {
-    public double x;
-    public double y;
+public class Point implements Comparable<Point>{
+    private List<Double> values;
+    private int sortingIndex;
 
-    public Point(double x, double y) {
-        this.x = x;
-        this.y = y;
+    public Point(Solution solution) {
+        makePoint(solution);
+        sortingIndex = 0;
     }
 
-    public double getX() {
-        return x;
+    public Point(int sortingIndex, double... val) {
+        this.sortingIndex = sortingIndex;
+        makePoint(val);
     }
 
-    public double getY() {
-        return y;
+    public Point(List<Double> values, int sortingIndex) {
+        this.values = values.subList(0, values.size());
+        this.sortingIndex = sortingIndex;
     }
 
-    @Override
-    public String toString() {
-        return "[" + x + ":" + y + "]";
+    public Point(Solution solution, int sortingIndex) {
+        makePoint(solution);
+        this.sortingIndex = sortingIndex;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (o instanceof Point) {
-            Point p = (Point) o;
-            return nearlyEquals(p.getX(), getX(), 0.000000000001) && nearlyEquals(p.getY(), getY(), 0.000000000001);
+    private void makePoint(Solution solution) {
+        int objectives = solution.getNumberOfObjectives();
+        values = new ArrayList<>(objectives);
+
+        for (int i = 0; i < objectives; i++) {
+            values.add(solution.getObjective(i));
         }
-        return false;
     }
 
-    private boolean nearlyEquals(double a, double b, double precision) {
-        return (a - b) < precision;
+    private void makePoint(double[] val) {
+        int objectives = val.length;
+        values = new ArrayList<>(objectives);
+
+        for (double aVal : val) {
+            values.add(aVal);
+        }
+    }
+
+    public int getSortingIndex() {
+        return sortingIndex;
+    }
+
+    public List<Double> getValues() {
+        return values;
+    }
+
+    @Override
+    public int compareTo(Point o) {
+        return Double.compare(values.get(sortingIndex), o.getValues().get(sortingIndex));
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Point) {
+            Point other = (Point)obj;
+
+            return PointUtil.distance(this, other) <= 0.00001;
+        }
+
+        return false;
     }
 }

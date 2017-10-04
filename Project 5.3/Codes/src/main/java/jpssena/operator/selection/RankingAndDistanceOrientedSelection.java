@@ -1,6 +1,6 @@
 package jpssena.operator.selection;
 
-import jpssena.algorithm.util.Point;
+import jpssena.algorithm.util.Point_Old;
 import jpssena.algorithm.util.SolutionSpacing;
 import org.uma.jmetal.operator.SelectionOperator;
 import org.uma.jmetal.operator.impl.selection.RankingAndCrowdingSelection;
@@ -93,7 +93,7 @@ public class RankingAndDistanceOrientedSelection<S extends Solution<?>> implemen
                 double E = SolutionSpacing.findBestSpacing(nonDominated);
 
                 //Using this ideal space and the non dominated solutions, we can find the ideal points in to pareto front
-                List<Point> idealPoints = SolutionSpacing.findIdealPoints(E, nonDominated);
+                List<Point_Old> idealPoints = SolutionSpacing.findIdealPoints(E, nonDominated);
 
                 //And by using these ideal points we select only the solutions that are close to them
                 computeAndAddDistanceToFront(ranking, rankingIndex, population, idealPoints);
@@ -103,7 +103,7 @@ public class RankingAndDistanceOrientedSelection<S extends Solution<?>> implemen
         return population;
     }
 
-    private void computeAndAddDistanceToFront(Ranking<S> ranking, int rank, List<S> population, List<Point> idealPoints) {
+    private void computeAndAddDistanceToFront(Ranking<S> ranking, int rank, List<S> population, List<Point_Old> idealPoints) {
         //Use the rank parameter to know what list of solutions to fetch
         List<S> front = ranking.getSubfront(rank);
 

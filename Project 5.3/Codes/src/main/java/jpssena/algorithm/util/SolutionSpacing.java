@@ -124,12 +124,12 @@ public class SolutionSpacing {
      * @param nonDominated The list of non dominated solutions
      * @return a list of ideal points
      */
-    public static <S extends Solution<?>> List<Point> findIdealPoints(double bestSpacing, List<S> nonDominated) {
+    public static <S extends Solution<?>> List<Point_Old> findIdealPoints(double bestSpacing, List<S> nonDominated) {
         //Once again we sort the solution list using the X axis
         Collections.sort(nonDominated, new SolutionXComparator<>());
 
         //Create a list to store the ideal points that are going to be found
-        List<Point> idealPoints = new ArrayList<>();
+        List<Point_Old> idealPoints = new ArrayList<>();
 
         //if the list has less than 2 solutions, add the solutions as ideal points and then return
         if (nonDominated.size() < 2) {
@@ -179,7 +179,7 @@ public class SolutionSpacing {
                 //SITUATION 3 - There could be also moments that the ideal spacing is 1 and the distance is 7. In this cases we will
                 //need to mark up to 7 ideal points between these solutions inside of a while loop
 
-                // -- How to Find a Point Comments (Algebra) --
+                // -- How to Find a Point_Old Comments (Algebra) --
                 //To avoid unnecessary recalculation inside of a while loop explained in the last section, we calculate
                 //everything we need to make a point away from another along the line right here, before the loop
 
@@ -196,7 +196,7 @@ public class SolutionSpacing {
                 //      U = V / (||V||),   if you remember || V || is the length of V
                 //
                 // 2.1 - The Length of V is the Square Root of the sum of every axis squared, so this will be a number N,
-                //       in the end of the day, we got:
+                //       in the end of the day, so we got:
                 //      U = V / N
                 //
                 // 2.2 - So U is actually:
@@ -243,7 +243,7 @@ public class SolutionSpacing {
                     double idealY = yi + actualPoint * Uy;
 
                     //Creates the ideal point
-                    Point idealPoint = new Point(idealX, idealY);
+                    Point_Old idealPoint = new Point_Old(idealX, idealY);
                     //and then add it to the list
                     idealPoints.add(idealPoint);
 
@@ -252,7 +252,7 @@ public class SolutionSpacing {
 
                     //Decrease distance because we just walked a little bit forward by marking this ideal point
                     distance -= desiredDistance;
-                } //End Point marking between 2 points
+                } //End Point_Old marking between 2 points
 
                 //Adds what is left of the distance to length covered, in this case the distance left is aways the distance from the last
                 //ideal point to the end solution
@@ -264,7 +264,7 @@ public class SolutionSpacing {
         //In some cases the last point is automatically added, but sometimes it is not.
         //To guarantee that it is aways added.
         //So we make the point
-        Point last = makePoint(nonDominated.get(nonDominated.size() - 1));
+        Point_Old last = makePoint(nonDominated.get(nonDominated.size() - 1));
         //Check if it was already added, and if not, add it
         if (!idealPoints.contains(last))
             idealPoints.add(last);
@@ -283,7 +283,7 @@ public class SolutionSpacing {
      * @param <S> The solution type
      * @return The input front list ordered by proximity to a ideal point
      */
-    public static <S extends Solution<?>> List<S> calculateDistanceToPointsOrdered(List<S> front, List<Point> idealPoints) {
+    public static <S extends Solution<?>> List<S> calculateDistanceToPointsOrdered(List<S> front, List<Point_Old> idealPoints) {
         //Create a list of solution/distance object that is easier to order using Collections.sort()
         List<SolutionDistanceToIdeal<S>> solutionsDistance = new ArrayList<>();
 
@@ -293,10 +293,10 @@ public class SolutionSpacing {
             double solDistance = Double.MAX_VALUE;
 
             //We make a point using the solution
-            Point point = makePoint(solution);
+            Point_Old point = makePoint(solution);
 
             //For each ideal point in ideal points
-            for (Point ideal : idealPoints) {
+            for (Point_Old ideal : idealPoints) {
                 //calculate the distance between the solution point and the ideal point
                 double dist = calculateDistanceBetweenPoints(point, ideal);
 
@@ -335,13 +335,13 @@ public class SolutionSpacing {
      * Make a point in space using the objectives values
      * @param solution the given solution to make the point
      * @param <S> the solution type
-     * @return a Point in space
+     * @return a Point_Old in space
      */
-    private static <S extends Solution<?>> Point makePoint(S solution) {
+    private static <S extends Solution<?>> Point_Old makePoint(S solution) {
         double x = solution.getObjective(1) * -1;
         double y = solution.getObjective(0) * -1;
 
-        return new Point(x, y);
+        return new Point_Old(x, y);
     }
 
     /**
@@ -365,11 +365,11 @@ public class SolutionSpacing {
 
     /**
      * Calculates the distance between 2 points
-     * @param a Point a
-     * @param b Point b
+     * @param a Point_Old a
+     * @param b Point_Old b
      * @return the distance between a and b
      */
-    private static double calculateDistanceBetweenPoints(Point a, Point b) {
+    private static double calculateDistanceBetweenPoints(Point_Old a, Point_Old b) {
         double xi = a.getX();
         double yi = a.getY();
 
