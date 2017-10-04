@@ -62,23 +62,25 @@ public class SelectBestChromosome<S extends Solution<?>, Result> implements Expe
                 functionValues.add(new Run(objectivesValues, chromosome));
                 //Also, adds the solutions found in this run to the list
                 allValues.addAll(objectivesValues);
+
+                //Based on every solution found, tries to get the mid point of all solutions
+                BitSet selected = findMidPointFromPareto(functionValues, allValues);
+
+                File baseDirectory = new File(experiment.getExperimentBaseDirectory());
+                String datasets = baseDirectory.getParent();
+
+                //Gets the training file related to this fold to serve as a model to create the reduced dataset
+                File trainingFile = new File(datasets + "/" + problemTag + "/" + problemTag + "-" + stratification + "-" + problemFold + "tra.arff");
+                //The Reduced dataset is marked with a red in the end of it
+                File result = new File(problemBase + "/" + problemTag + "-" + stratification + "-" + problemFold + "red_" + run + ".arff");
+
+                //Writes the result
+                GeneticUtil.createFileWithBitSet(selected, trainingFile, result);
+                //Adds this result to the list
+
+                allValues.clear();
+                this.result.add(result);
             }
-
-            //Based on every solution found, tries to get the mid point of all solutions
-            BitSet selected = findMidPointFromPareto(functionValues, allValues);
-
-            File baseDirectory = new File(experiment.getExperimentBaseDirectory());
-            String datasets = baseDirectory.getParent();
-
-            //Gets the training file related to this fold to serve as a model to create the reduced dataset
-            File trainingFile = new File(datasets + "/" + problemTag + "/" + problemTag + "-" + stratification + "-" + problemFold + "tra.arff");
-            //The Reduced dataset is marked with a red in the end of it
-            File result = new File(problemBase + "/" + problemTag + "-" + stratification + "-" + problemFold + "red.arff");
-
-            //Writes the result
-            GeneticUtil.createFileWithBitSet(selected, trainingFile, result);
-            //Adds this result to the list
-            this.result.add(result);
         }
     }
 

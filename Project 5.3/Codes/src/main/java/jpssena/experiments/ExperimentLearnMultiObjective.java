@@ -35,7 +35,7 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class ExperimentLearnMultiObjective {
-    private static final int INDEPENDENT_RUNS = 3;
+    private static final int INDEPENDENT_RUNS = 2;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
