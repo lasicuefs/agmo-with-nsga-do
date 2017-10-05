@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by João Paulo on 04/10/2017.
+ * Created by João Paulo on 02/10/2017.
  */
 public class Point implements Comparable<Point>{
     private List<Double> values;
@@ -37,7 +37,7 @@ public class Point implements Comparable<Point>{
         values = new ArrayList<>(objectives);
 
         for (int i = 0; i < objectives; i++) {
-            values.add(solution.getObjective(i));
+            values.add(solution.getObjective(i) > 0 ? solution.getObjective(i) : solution.getObjective(i) * -1);
         }
     }
 
@@ -72,5 +72,10 @@ public class Point implements Comparable<Point>{
         }
 
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return values.toString();
     }
 }

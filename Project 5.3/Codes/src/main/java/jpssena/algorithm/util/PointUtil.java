@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by João Paulo on 04/10/2017.
+ * Created by João Paulo on 02/10/2017.
  */
 public class PointUtil {
     public static <S extends Solution<?>> List<Point> getPointsFromSolutionList(List<S> solutions, int sortingIndex) {
@@ -84,11 +84,22 @@ public class PointUtil {
     }
 
     public static Point findPointAtDistanceAlongLine(Point a, Point b, double desiredDistance) {
-        Point difference = difference(a, b);
+        Point difference = difference(b, a);
         double distance = distance(a, b);
         Point normalized = divideByScalar(difference, distance);
         Point multiplied = multiplyByScalar(normalized, desiredDistance);
 
         return sum(a, multiplied);
+    }
+
+    public static List<Point> removeDuplicated(List<Point> points) {
+        List<Point> uniques = new ArrayList<>();
+
+        for (Point point : points) {
+            if (!uniques.contains(point))
+                uniques.add(point);
+        }
+
+        return uniques;
     }
 }
