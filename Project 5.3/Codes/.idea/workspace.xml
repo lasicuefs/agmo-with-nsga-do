@@ -2,15 +2,133 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jMetal.log.lck" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/Point.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/Point.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/PointUtil.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/PointUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/comparator/DistanceOrientedComparator.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/comparator/DistanceOrientedComparator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/solutionattribute/IdealDistance$1.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/solutionattribute/IdealDistance$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/solutionattribute/IdealDistance.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/algorithm/util/solutionattribute/IdealDistance.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-1/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-1/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-10/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-10/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-2/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-2/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-2/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-2/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-3/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-3/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-3/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-3/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-4/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-4/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-4/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-4/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-5/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-5/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-6/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-6/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-7/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-7/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-8/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-8/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-8/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-8/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-9/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-9/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-9/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman-9/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/execution_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-10red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-10red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-1red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-1red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-2red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-2red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-3red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-3red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-4red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-4red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-5red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-5red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-6red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-6red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-7red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-7red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-8red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-8red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-9red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/haberman-10-9red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/resultsRun.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-1/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-1/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-1/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-1/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-10/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-10/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-2/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-2/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-2/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-2/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-3/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-3/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-3/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-3/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-4/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-4/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-5/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-5/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-6/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-6/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-6/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-6/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-7/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-7/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-8/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-8/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-9/FUN0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-9/FUN1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-9/VAR0.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo-9/VAR1.tsv" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/execution_test.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/result.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/resultsRun.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-10red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-10red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-1red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-1red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-2red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-2red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-3red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-3red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-4red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-4red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-5red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-5red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-6red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-6red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-7red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-7red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-8red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-8red_1.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-9red_0.arff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/zoo-10-9red_1.arff" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiment/component/TestSelectedChromosome.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiment/component/TestSelectedChromosome.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/experiments/ExperimentLearnMultiObjective.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/experiments/ExperimentLearnMultiObjective.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/jpssena/operator/selection/RankingAndDistanceOrientedSelection.class" afterPath="$PROJECT_DIR$/target/classes/jpssena/operator/selection/RankingAndDistanceOrientedSelection.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jMetal.log" afterPath="$PROJECT_DIR$/jMetal.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java" />
@@ -32,14 +150,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestSelectedChromosome.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSelectedChromosome.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="82" column="71" lean-forward="false" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+            <state relative-caret-position="362">
+              <caret line="51" column="82" lean-forward="false" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IdealDistance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2474">
+              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExperimentLearnMultiObjective.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="145" column="24" lean-forward="false" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -118,8 +256,8 @@
         <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java" />
       </list>
     </option>
   </component>
@@ -167,6 +305,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -178,36 +317,6 @@
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
               <item name="Codes" type="462c0819:PsiDirectoryNode" />
               <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGA-DO" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Codes" type="462c0819:PsiDirectoryNode" />
-              <item name="dataset-test" type="462c0819:PsiDirectoryNode" />
-              <item name="Experiment" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-              <item name="NSGA-DO" type="462c0819:PsiDirectoryNode" />
-              <item name="zoo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Codes" type="b2602c69:ProjectViewProjectNode" />
@@ -349,10 +458,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -941,11 +1049,12 @@
       <workItem from="1507153941333" duration="639000" />
       <workItem from="1507154705653" duration="5190000" />
       <workItem from="1507204737305" duration="9274000" />
+      <workItem from="1507221871978" duration="2864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204076000" />
+    <option name="totallyTimeSpent" value="206940000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -958,19 +1067,19 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42472267" sideWeight="0.5058565" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.53882724" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296355" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29952458" sideWeight="0.4941435" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28257686" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4801902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4801902" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1169,7 +1278,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="50" column="77" lean-forward="false" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1185,7 +1293,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1193,7 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="50" column="29" lean-forward="false" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1201,7 +1307,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1217,7 +1322,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,10 +1329,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#1423#1424#0" expanded="false" />
-            <element signature="e#1473#1474#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,9 +1336,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1256,18 +1353,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4837">
           <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="125" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="875">
-          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
-          <folding>
-            <element signature="e#2434#3180#0" expanded="true" />
-            <element signature="e#3179#3180#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,7 +1360,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1283,7 +1367,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,7 +1382,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="130">
           <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1323,7 +1404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="202">
           <caret line="73" column="16" lean-forward="false" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1331,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="1526" column="21" lean-forward="false" selection-start-line="1526" selection-start-column="21" selection-end-line="1526" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1339,41 +1418,48 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="262">
           <caret line="1928" column="24" lean-forward="false" selection-start-line="1928" selection-start-column="24" selection-end-line="1928" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1751">
-          <caret line="147" column="2" lean-forward="false" selection-start-line="147" selection-start-column="2" selection-end-line="147" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/zoo/execution_test.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="-357">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/execution_test.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="19" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="82" column="71" lean-forward="false" selection-start-line="82" selection-start-column="71" selection-end-line="82" selection-end-column="71" />
+        <state relative-caret-position="362">
+          <caret line="51" column="82" lean-forward="false" selection-start-line="51" selection-start-column="82" selection-end-line="51" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2474">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset-test/Experiment/data/NSGA-DO/haberman/execution_test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="145" column="24" lean-forward="false" selection-start-line="145" selection-start-column="24" selection-end-line="145" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>

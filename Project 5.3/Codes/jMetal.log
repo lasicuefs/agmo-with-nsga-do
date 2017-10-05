@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661389</millis>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621336</millis>
   <sequence>0</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Loggers configured with null</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661452</millis>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621383</millis>
   <sequence>1</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -24,42 +24,42 @@
   <message>ExecuteAlgorithms: Preparing output directory</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621399</millis>
   <sequence>2</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-8</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>5</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
+  <thread>13</thread>
   <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-3</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>6</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621399</millis>
+  <sequence>3</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-3, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-3/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>4</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-8, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-8/FUN0.tsv</message>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-7</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>4</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>6</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -68,251 +68,9 @@
   <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-3</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>3</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-7</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>7</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-3, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-3/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>8</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-7, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>9</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-3, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-3/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>10</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-7</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:21</date>
-  <millis>1507214661483</millis>
-  <sequence>11</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-7, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:24</date>
-  <millis>1507214664874</millis>
-  <sequence>12</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-6</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:24</date>
-  <millis>1507214664874</millis>
-  <sequence>13</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-6, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-6/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:25</date>
-  <millis>1507214665311</millis>
-  <sequence>14</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-5</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:25</date>
-  <millis>1507214665311</millis>
-  <sequence>15</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-5, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667108</millis>
-  <sequence>16</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-9</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667108</millis>
-  <sequence>17</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-9, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-9/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667155</millis>
-  <sequence>18</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-4</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667155</millis>
-  <sequence>19</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-4, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667780</millis>
-  <sequence>20</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-5</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667780</millis>
-  <sequence>21</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-5, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667874</millis>
-  <sequence>22</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-10</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667874</millis>
-  <sequence>23</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-10, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667999</millis>
-  <sequence>24</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-6</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:27</date>
-  <millis>1507214667999</millis>
-  <sequence>25</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-6, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:28</date>
-  <millis>1507214668249</millis>
-  <sequence>26</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-10</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:28</date>
-  <millis>1507214668249</millis>
-  <sequence>27</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-10, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN0.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:28</date>
-  <millis>1507214668452</millis>
-  <sequence>28</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>5</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -321,9 +79,31 @@
   <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-2</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:28</date>
-  <millis>1507214668452</millis>
-  <sequence>29</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>7</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-9</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>8</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-7, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>9</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -332,31 +112,31 @@
   <message> Running algorithm: NSGA-DO, problem: zoo-2, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-2/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:29</date>
-  <millis>1507214669296</millis>
-  <sequence>30</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>10</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-8</message>
+  <thread>1</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-3, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-3/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:29</date>
-  <millis>1507214669296</millis>
-  <sequence>31</sequence>
+  <date>2017-10-05T13:57:01</date>
+  <millis>1507222621414</millis>
+  <sequence>11</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-8, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN0.tsv</message>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-9, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-9/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:29</date>
-  <millis>1507214669702</millis>
-  <sequence>32</sequence>
+  <date>2017-10-05T13:57:04</date>
+  <millis>1507222624961</millis>
+  <sequence>12</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -365,9 +145,9 @@
   <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-1</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:29</date>
-  <millis>1507214669702</millis>
-  <sequence>33</sequence>
+  <date>2017-10-05T13:57:04</date>
+  <millis>1507222624961</millis>
+  <sequence>13</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -376,96 +156,316 @@
   <message> Running algorithm: NSGA-DO, problem: zoo-1, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-1/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670374</millis>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625196</millis>
+  <sequence>14</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-6</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625196</millis>
+  <sequence>15</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-6, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-6/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625274</millis>
+  <sequence>16</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-10</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625274</millis>
+  <sequence>17</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-10, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625274</millis>
+  <sequence>18</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-5</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:05</date>
+  <millis>1507222625274</millis>
+  <sequence>19</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-5, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627024</millis>
+  <sequence>20</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-4</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627024</millis>
+  <sequence>21</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-4, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627071</millis>
+  <sequence>22</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/zoo-8</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627071</millis>
+  <sequence>23</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-8, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627227</millis>
+  <sequence>24</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-8</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627227</millis>
+  <sequence>25</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-8, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-8/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627227</millis>
+  <sequence>26</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-7</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:07</date>
+  <millis>1507222627243</millis>
+  <sequence>27</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>12</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-7, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628055</millis>
+  <sequence>28</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-5</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628055</millis>
+  <sequence>29</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-5, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628086</millis>
+  <sequence>30</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-6</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628086</millis>
+  <sequence>31</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-6, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628227</millis>
+  <sequence>32</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-10</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:08</date>
+  <millis>1507222628227</millis>
+  <sequence>33</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-10, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN0.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:10</date>
+  <millis>1507222630868</millis>
   <sequence>34</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>13</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-9</message>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-2</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670374</millis>
+  <date>2017-10-05T13:57:10</date>
+  <millis>1507222630868</millis>
   <sequence>35</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-9, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-9/FUN0.tsv</message>
+  <message> Running algorithm: NSGA-DO, problem: haberman-2, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-2/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670921</millis>
+  <date>2017-10-05T13:57:11</date>
+  <millis>1507222631008</millis>
   <sequence>36</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
+  <thread>12</thread>
   <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-4</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670921</millis>
+  <date>2017-10-05T13:57:11</date>
+  <millis>1507222631008</millis>
   <sequence>37</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>1</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGA-DO, problem: haberman-4, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-4/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670921</millis>
+  <date>2017-10-05T13:57:11</date>
+  <millis>1507222631696</millis>
   <sequence>38</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-2</message>
+  <thread>1</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-1</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:30</date>
-  <millis>1507214670921</millis>
+  <date>2017-10-05T13:57:11</date>
+  <millis>1507222631696</millis>
   <sequence>39</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-2, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-2/FUN0.tsv</message>
+  <thread>1</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-1, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:31</date>
-  <millis>1507214671296</millis>
+  <date>2017-10-05T13:57:12</date>
+  <millis>1507222632086</millis>
   <sequence>40</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-1</message>
+  <thread>15</thread>
+  <message>Creating ./dataset-test/Experiment/data/NSGA-DO/haberman-9</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:31</date>
-  <millis>1507214671296</millis>
+  <date>2017-10-05T13:57:12</date>
+  <millis>1507222632102</millis>
   <sequence>41</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-1, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN0.tsv</message>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-9, run: 0, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-9/FUN0.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:33</date>
-  <millis>1507214673672</millis>
+  <date>2017-10-05T13:57:14</date>
+  <millis>1507222634602</millis>
   <sequence>42</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
@@ -475,9 +475,31 @@
   <message> Running algorithm: NSGA-DO, problem: haberman-3, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-3/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:33</date>
-  <millis>1507214673672</millis>
+  <date>2017-10-05T13:57:14</date>
+  <millis>1507222634602</millis>
+  <sequence>46</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-7, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:14</date>
+  <millis>1507222634602</millis>
   <sequence>45</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-7, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:14</date>
+  <millis>1507222634602</millis>
+  <sequence>44</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -486,97 +508,141 @@
   <message> Running algorithm: NSGA-DO, problem: haberman-2, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-2/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:33</date>
-  <millis>1507214673672</millis>
-  <sequence>44</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-1, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:33</date>
-  <millis>1507214673672</millis>
+  <date>2017-10-05T13:57:14</date>
+  <millis>1507222634602</millis>
   <sequence>43</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGA-DO, problem: haberman-8, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-8/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:33</date>
-  <millis>1507214673672</millis>
-  <sequence>46</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-7, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-7/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:34</date>
-  <millis>1507214674781</millis>
+  <date>2017-10-05T13:57:15</date>
+  <millis>1507222635852</millis>
   <sequence>47</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
+  <thread>15</thread>
   <message> Running algorithm: NSGA-DO, problem: zoo-6, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-6/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:35</date>
-  <millis>1507214675812</millis>
+  <date>2017-10-05T13:57:16</date>
+  <millis>1507222636915</millis>
   <sequence>48</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
+  <thread>15</thread>
   <message> Running algorithm: NSGA-DO, problem: zoo-9, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-9/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:36</date>
-  <millis>1507214676891</millis>
+  <date>2017-10-05T13:57:18</date>
+  <millis>1507222638102</millis>
   <sequence>49</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
   <thread>15</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-10, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN1.tsv</message>
+  <message> Running algorithm: NSGA-DO, problem: zoo-10, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:36</date>
-  <millis>1507214676922</millis>
+  <date>2017-10-05T13:57:18</date>
+  <millis>1507222638102</millis>
   <sequence>50</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-5, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN1.tsv</message>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-6, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:37</date>
-  <millis>1507214677000</millis>
+  <date>2017-10-05T13:57:18</date>
+  <millis>1507222638149</millis>
   <sequence>51</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>14</thread>
+  <thread>12</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-10, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-10/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:18</date>
+  <millis>1507222638165</millis>
+  <sequence>52</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>13</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-1, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-1/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:18</date>
+  <millis>1507222638180</millis>
+  <sequence>53</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>1</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-5, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-5/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:19</date>
+  <millis>1507222639227</millis>
+  <sequence>54</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-8, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:20</date>
+  <millis>1507222640258</millis>
+  <sequence>55</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
   <message> Running algorithm: NSGA-DO, problem: zoo-3, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-3/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:37</date>
-  <millis>1507214677000</millis>
-  <sequence>52</sequence>
+  <date>2017-10-05T13:57:21</date>
+  <millis>1507222641415</millis>
+  <sequence>56</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>14</thread>
+  <message> Running algorithm: NSGA-DO, problem: haberman-4, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-4/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:21</date>
+  <millis>1507222641540</millis>
+  <sequence>57</sequence>
+  <logger>org.uma.jmetal.util.JMetalLogger</logger>
+  <level>INFO</level>
+  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
+  <method>runAlgorithm</method>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-5, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN1.tsv</message>
+</record>
+<record>
+  <date>2017-10-05T13:57:21</date>
+  <millis>1507222641602</millis>
+  <sequence>58</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
@@ -585,102 +651,36 @@
   <message> Running algorithm: NSGA-DO, problem: zoo-2, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-2/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:37</date>
-  <millis>1507214677078</millis>
-  <sequence>53</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-10, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-10/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:38</date>
-  <millis>1507214678187</millis>
-  <sequence>54</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-5, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-5/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:38</date>
-  <millis>1507214678203</millis>
-  <sequence>55</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-1, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-1/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:38</date>
-  <millis>1507214678219</millis>
-  <sequence>56</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-8, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-8/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:39</date>
-  <millis>1507214679250</millis>
-  <sequence>57</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>14</thread>
-  <message> Running algorithm: NSGA-DO, problem: zoo-4, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:39</date>
-  <millis>1507214679297</millis>
-  <sequence>58</sequence>
-  <logger>org.uma.jmetal.util.JMetalLogger</logger>
-  <level>INFO</level>
-  <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
-  <method>runAlgorithm</method>
-  <thread>1</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-7, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-7/FUN1.tsv</message>
-</record>
-<record>
-  <date>2017-10-05T11:44:39</date>
-  <millis>1507214679312</millis>
+  <date>2017-10-05T13:57:21</date>
+  <millis>1507222641712</millis>
   <sequence>59</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>12</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-4, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-4/FUN1.tsv</message>
+  <thread>13</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-1, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-1/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:40</date>
-  <millis>1507214680156</millis>
+  <date>2017-10-05T13:57:21</date>
+  <millis>1507222641790</millis>
   <sequence>60</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>15</thread>
+  <thread>12</thread>
   <message> Running algorithm: NSGA-DO, problem: haberman-9, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-9/FUN1.tsv</message>
 </record>
 <record>
-  <date>2017-10-05T11:44:40</date>
-  <millis>1507214680172</millis>
+  <date>2017-10-05T13:57:22</date>
+  <millis>1507222642743</millis>
   <sequence>61</sequence>
   <logger>org.uma.jmetal.util.JMetalLogger</logger>
   <level>INFO</level>
   <class>jpssena.experiment.util.ExperimentAlgorithmWithTime</class>
   <method>runAlgorithm</method>
-  <thread>13</thread>
-  <message> Running algorithm: NSGA-DO, problem: haberman-6, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/haberman-6/FUN1.tsv</message>
+  <thread>15</thread>
+  <message> Running algorithm: NSGA-DO, problem: zoo-4, run: 1, funFile: ./dataset-test/Experiment/data/NSGA-DO/zoo-4/FUN1.tsv</message>
 </record>
 </log>

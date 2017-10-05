@@ -7,11 +7,8 @@ import jpssena.experiment.component.TestSelectedChromosome;
 import jpssena.experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
-import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
-import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
-import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.experiment.Experiment;
@@ -41,6 +38,10 @@ public class ExperimentLearnMultiObjective {
     private static final String stratification = "10";
     private static final String baseDirectory = "./dataset-test";
     private static final String[] datasetNames = {"zoo", "haberman"};
+    private static final double crossoverProbability = 0.9;
+    private static final double mutationProbability = 0.2;
+    private static final int maxEvaluations = 1000;
+    private static final int populationSize = 100;
 
     public static void main (String[] args) {
         //Extract the List of Problems that are going to be solved;
@@ -136,13 +137,13 @@ public class ExperimentLearnMultiObjective {
 
             Algorithm<List<BinarySolution>> nsga_do = new NSGADOBuilder<>(
                     problem,                                     //The problem this algorithm is going to solve in the jpssena.experiment
-                    new HUXCrossover(0.9),      //Using HUXCrossover with 0.9 probability
-                    new BitFlipMutation(0.2))   //Using BitFlipMutation with 0.2 probability
-                    .setMaxEvaluations(1000)                     //Using 1000 max evaluations
-                    .setPopulationSize(100)                      //Using a population size of 100
+                    new HUXCrossover(crossoverProbability),      //Using HUXCrossover with 0.9 probability
+                    new BitFlipMutation(mutationProbability))    //Using BitFlipMutation with 0.2 probability
+                    .setMaxEvaluations(maxEvaluations)           //Using 1000 max evaluations
+                    .setPopulationSize(populationSize)           //Using a population size of 100
                     .build();
 
-            //Adds this jpssena.experiment algorithm to the algorithm list.
+            //Adds this experiment algorithm to the algorithm list.
             //The ExperimentAlgorithm with time is a derivation of Experiment algorithm. The difference is that this one saves the execution time as well
             algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_do, exp_problem.getTag()));
 /*
