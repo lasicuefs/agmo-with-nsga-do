@@ -145,7 +145,7 @@ public class ExperimentLearnMultiObjective {
             //Adds this jpssena.experiment algorithm to the algorithm list.
             //The ExperimentAlgorithm with time is a derivation of Experiment algorithm. The difference is that this one saves the execution time as well
             algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_do, exp_problem.getTag()));
-
+/*
 
             Algorithm<List<BinarySolution>> nsga_iii = new NSGAIIIBuilder<>(
                     problem)
@@ -166,7 +166,7 @@ public class ExperimentLearnMultiObjective {
                     .setPopulationSize(100)                      //Using a population size of 100
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));*/
         }
 
         return algorithms;
