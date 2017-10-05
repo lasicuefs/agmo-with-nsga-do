@@ -161,7 +161,7 @@ public class SolutionSpacing {
 
                 // -- Find points Comments and Example (Logic) --
                 //Then, we need to add this distance to that distance we covered so far, and check if those 2 added together
-                //makes a distance that is greater then the best spacing we found (and now it a parameter).
+                //makes a distance that is greater then the best spacing we found (and now its a parameter).
 
                 //SITUATION 1 - For instance, if we are in the first iteration, we covered 0 distance so far, and the distance between
                 //the first 2 solutions is 3. But the ideal spacing is 1.8
@@ -263,7 +263,7 @@ public class SolutionSpacing {
 
         //In some cases the last point is automatically added, but sometimes it is not.
         //To guarantee that it is aways added.
-        //So we make the point
+        //We make the point
         Point_Old last = makePoint(nonDominated.get(nonDominated.size() - 1));
         //Check if it was already added, and if not, add it
         if (!idealPoints.contains(last))

@@ -32,6 +32,7 @@ public class Point implements Comparable<Point>{
         this.sortingIndex = sortingIndex;
     }
 
+    //Creates a point in which every objective is a new dimension in space
     private void makePoint(Solution solution) {
         int objectives = solution.getNumberOfObjectives();
         values = new ArrayList<>(objectives);
@@ -67,7 +68,7 @@ public class Point implements Comparable<Point>{
     public boolean equals(Object obj) {
         if (obj instanceof Point) {
             Point other = (Point)obj;
-
+            //Two points are equal if they are really close to each other
             return PointUtil.distance(this, other) <= 0.00001;
         }
 

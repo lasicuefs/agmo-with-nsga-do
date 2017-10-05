@@ -113,8 +113,11 @@ public class RankingAndDistanceOrientedSelection<S extends Solution<?>> implemen
         //Reorder the list using how close each solution is from a ideal point
         //List<S> solutionsOrdered = SolutionSpacing.calculateDistanceToPointsOrdered(front, idealPoints);
 
+        //Creates the Ideal Distance Calculator
         IdealDistance<S> idealDistance = new IdealDistance<>();
+        //Computes the distance from every solution to the ideal point
         idealDistance.computeIdealDistance(solutions);
+        //Sort the desired front list based on distance to ideal point
         List<S> solutionsOrderedV2 = idealDistance.getOrderedPoints(front);
 
         int i = 0;

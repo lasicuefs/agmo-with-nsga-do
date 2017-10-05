@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="859ac6a9-4f89-47e1-a6ba-47d34ba70304" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java" afterPath="$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,47 +25,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DistanceOrientedComparator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DistanceOrientedComparator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            <state relative-caret-position="192">
+              <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RankingAndDistanceOrientedSelection.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="116" column="31" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Point.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IdealDistance.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-539">
-              <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-              <folding>
-                <element signature="e#1443#2188#0" expanded="true" />
-                <element signature="e#2187#2188#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -135,12 +105,12 @@
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiment/component/SelectBestChromosome.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiment/component/TestSelectedChromosome.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/experiments/ExperimentLearnMultiObjective.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java" />
-        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java" />
         <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java" />
       </list>
     </option>
   </component>
@@ -931,12 +901,12 @@
       <workItem from="1506530467036" duration="4686000" />
       <workItem from="1507153941333" duration="639000" />
       <workItem from="1507154705653" duration="5190000" />
-      <workItem from="1507204737305" duration="5010000" />
+      <workItem from="1507204737305" duration="8400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="199812000" />
+    <option name="totallyTimeSpent" value="203202000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1142,13 +1112,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/operator/impl/selection/RankingAndCrowdingSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="74" column="17" lean-forward="false" selection-start-line="74" selection-start-column="17" selection-end-line="74" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/experiment/util/ExperimentAlgorithmWithTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -1250,26 +1213,8 @@
         <state relative-caret-position="-153">
           <caret line="64" column="0" lean-forward="false" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-680">
-          <caret line="8" column="30" lean-forward="false" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="99" column="30" lean-forward="false" selection-start-line="99" selection-start-column="30" selection-end-line="99" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,10 +1253,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="71" column="26" lean-forward="false" selection-start-line="71" selection-start-column="26" selection-end-line="71" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/PointUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/SolutionSpacing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4837">
+          <caret line="120" column="4" lean-forward="true" selection-start-line="120" selection-start-column="4" selection-end-line="125" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="194" column="0" lean-forward="true" selection-start-line="194" selection-start-column="0" selection-end-line="194" selection-end-column="0" />
+          <folding>
+            <element signature="e#2434#3180#0" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/util/comparator/RankingComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="7" lean-forward="true" selection-start-line="45" selection-start-column="6" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="170">
+          <caret line="15" column="30" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/uma/jmetal/jmetal-core/5.3/jmetal-core-5.3-sources.jar!/org/uma/jmetal/operator/impl/selection/RankingAndCrowdingSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="70" column="20" lean-forward="false" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1688">
+          <caret line="146" column="91" lean-forward="false" selection-start-line="146" selection-start-column="91" selection-end-line="146" selection-end-column="91" />
           <folding />
         </state>
       </provider>
@@ -1326,38 +1326,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/comparator/DistanceOrientedComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        <state relative-caret-position="192">
+          <caret line="32" column="8" lean-forward="false" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/Point.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="27" lean-forward="true" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/operator/selection/RankingAndDistanceOrientedSelection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="116" column="31" lean-forward="false" selection-start-line="116" selection-start-column="31" selection-end-line="116" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/jpssena/algorithm/util/solutionattribute/IdealDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-539">
-          <caret line="51" column="70" lean-forward="false" selection-start-line="51" selection-start-column="70" selection-end-line="51" selection-end-column="70" />
-          <folding>
-            <element signature="e#1443#2188#0" expanded="true" />
-            <element signature="e#2187#2188#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

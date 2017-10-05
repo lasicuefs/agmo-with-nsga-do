@@ -1,6 +1,7 @@
 package jpssena.algorithm.util.comparator;
 import jpssena.algorithm.util.solutionattribute.IdealDistance;
 import org.uma.jmetal.solution.Solution;
+import org.uma.jmetal.util.comparator.RankingComparator;
 
 import java.io.Serializable;
 import java.util.Comparator;
@@ -11,6 +12,11 @@ import java.util.Comparator;
 public class DistanceOrientedComparator<S extends Solution<?>> implements Comparator<S>, Serializable {
     private IdealDistance<S> idealDistance = new IdealDistance<>();
 
+
+    /**
+     * This is basically a copy of {@link RankingComparator} to compare two solutions,
+     * but instead of comparing ranking of dominance, this compares the witch solution is closer to a ideal point
+     */
     @Override
     public int compare(S solution1, S solution2) {
         /*double sol1 = Double.MAX_VALUE;
@@ -24,7 +30,7 @@ public class DistanceOrientedComparator<S extends Solution<?>> implements Compar
         }
 
         return Double.compare(sol1, sol2);*/
-
+        
         if (solution1 == null) {
             if (solution2 == null) {
                 return 0;
@@ -33,17 +39,17 @@ public class DistanceOrientedComparator<S extends Solution<?>> implements Compar
             }
         } else if (solution2 == null) {
             return -1;
-        }  else {
+        } else {
             double distance1 = Double.MAX_VALUE;
             double distance2 = Double.MAX_VALUE;
 
-            if (idealDistance.getAttribute(solution1) != null) {
+            if (idealDistance.getAttribute(solution1) != null)
                 distance1 = idealDistance.getAttribute(solution1);
-            }
 
-            if (idealDistance.getAttribute(solution2) != null) {
+
+            if (idealDistance.getAttribute(solution2) != null)
                 distance2 = idealDistance.getAttribute(solution2);
-            }
+
 
             return Double.compare(distance1, distance2);
         }
