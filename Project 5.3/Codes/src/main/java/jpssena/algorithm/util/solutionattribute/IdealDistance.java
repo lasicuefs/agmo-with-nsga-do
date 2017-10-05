@@ -44,13 +44,15 @@ public class IdealDistance<S extends Solution<?>> extends GenericSolutionAttribu
         Collections.sort(front, new Comparator<S>() {
             @Override
             public int compare(S o1, S o2) {
-                if (o2.getAttribute(getAttributeIdentifier()) == null)
-                    return 1;
-                if (o1.getAttribute(getAttributeIdentifier()) == null)
-                    return -1;
+                Double distance1 = Double.MAX_VALUE;
+                Double distance2 = Double.MAX_VALUE;
+                if (o1.getAttribute(getAttributeIdentifier()) == null && o2.getAttribute(getAttributeIdentifier()) == null)
+                    return 0;
 
-                Double distance1 = (Double) o1.getAttribute(getAttributeIdentifier());
-                Double distance2 = (Double) o2.getAttribute(getAttributeIdentifier());
+                if (o2.getAttribute(getAttributeIdentifier()) != null)
+                    distance2 = (double) o2.getAttribute(getAttributeIdentifier());
+                if (o1.getAttribute(getAttributeIdentifier()) != null)
+                    distance1 = (double) o1.getAttribute(getAttributeIdentifier());
 
                 return Double.compare(distance1, distance2);
             }
