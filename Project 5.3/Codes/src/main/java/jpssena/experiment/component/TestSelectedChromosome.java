@@ -6,6 +6,7 @@ import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentComponent;
 import org.uma.jmetal.util.experiment.util.ExperimentAlgorithm;
 import weka.classifiers.Evaluation;
+import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.lazy.IBk;
 import weka.core.Instances;
 

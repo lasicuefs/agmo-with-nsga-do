@@ -4,6 +4,7 @@ import org.uma.jmetal.problem.impl.AbstractBinaryProblem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.solution.impl.DefaultBinarySolution;
 import weka.classifiers.Evaluation;
+import weka.classifiers.functions.MultilayerPerceptron;
 import weka.classifiers.lazy.IBk;
 import weka.core.Instances;
 
@@ -44,6 +45,16 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
             evaluation.evaluateModel(knn, samples);
             //The number of correct answers
             accuracy = evaluation.correct();
+
+            /*
+            MultilayerPerceptron neuralNetwork = new MultilayerPerceptron();
+            neuralNetwork.buildClassifier(instances);
+            Evaluation neuralEvaluation = new Evaluation(instances);
+            neuralEvaluation.evaluateModel(neuralNetwork, samples);
+            double neuralAccuracy = neuralEvaluation.correct();
+
+            neuralAccuracy = neuralAccuracy/samples.numInstances();
+            */
         } catch (Exception e) {
             e.printStackTrace();
             System.exit(-1);
