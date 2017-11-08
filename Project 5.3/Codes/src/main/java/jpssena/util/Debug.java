@@ -5,6 +5,7 @@ package jpssena.util;
  */
 public class Debug {
     public static boolean DEBUG = false;
+    public static boolean RNG = false;
     private static boolean temp;
     public static int printLevel = 2;
     private static int currentLevel = 2;

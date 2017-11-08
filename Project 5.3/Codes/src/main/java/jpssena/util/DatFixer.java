@@ -1,6 +1,7 @@
 package jpssena.util;
 
 import java.io.*;
+import java.util.Hashtable;
 
 /**
  * Created by João Paulo on 19/07/2017.
@@ -21,6 +22,10 @@ public class DatFixer {
             BufferedWriter bw = new BufferedWriter(new FileWriter(fixed));
             BufferedReader br = new BufferedReader(new FileReader(original));
             String line;
+
+            String lastAttributeLine = null;
+            boolean processedRNG = false;
+            Hashtable<Integer, String> nominalToDecimal = new Hashtable<>();
 
             //Reads every line from the original file
             while ((line = br.readLine()) != null) {
@@ -55,6 +60,50 @@ public class DatFixer {
                         line = remain;
                     }
                     //Writes the line in the fixed file
+
+                    if (!line.startsWith("@relation") && !line.startsWith("@data")) {
+                        if (Debug.RNG) {
+                            if (line.startsWith("@attribute")) {
+                                lastAttributeLine = line;
+                            } else {
+                                if (!processedRNG) {
+                                    if (lastAttributeLine == null) {
+                                        System.out.println("There's something wrong with this file..\n\t-> ORIGINAL: " + original.getName());
+                                    } else {
+                                        int startPosition = lastAttributeLine.indexOf("{") + 1;
+                                        int endPosition = lastAttributeLine.indexOf("}");
+
+                                        String classes = lastAttributeLine.substring(startPosition, endPosition);
+                                        String[] parts = classes.split(",");
+                                        for (int i = 0; i < parts.length; i++) {
+                                            String part = parts[i];
+                                            part = part.trim();
+
+                                            nominalToDecimal.put(i, part);
+                                        }
+                                    }
+                                    processedRNG = true;
+                                }
+
+                                String[] lineParts = line.split(" ");
+                                String lastPart = lineParts[lineParts.length - 1];
+                                int decimal = Integer.parseInt(lastPart) - 1;
+
+                                String replacement = nominalToDecimal.get(decimal);
+                                lineParts[lineParts.length - 1] = replacement;
+
+                                StringBuilder stringBuilder = new StringBuilder();
+                                for (String part : lineParts) {
+                                    stringBuilder.append(part);
+                                    stringBuilder.append(" ");
+                                }
+
+                                line = stringBuilder.toString().trim();
+                            }
+
+                        }
+                    }
+
                     bw.write(line);
                     bw.write("\n");
                 }

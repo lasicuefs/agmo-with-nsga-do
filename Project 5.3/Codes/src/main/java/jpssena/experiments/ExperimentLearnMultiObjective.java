@@ -6,11 +6,16 @@ import jpssena.experiment.component.SelectBestChromosome;
 import jpssena.experiment.component.TestSelectedChromosome;
 import jpssena.experiment.util.ExperimentAlgorithmWithTime;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
+import jpssena.util.DatFileParser;
 import org.uma.jmetal.algorithm.Algorithm;
+import org.uma.jmetal.algorithm.multiobjective.nsgaii.NSGAIIBuilder;
+import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
+import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
+import org.uma.jmetal.util.JMetalLogger;
 import org.uma.jmetal.util.experiment.Experiment;
 import org.uma.jmetal.util.experiment.ExperimentBuilder;
 import org.uma.jmetal.util.experiment.component.*;
@@ -32,12 +37,15 @@ import java.util.List;
  * Created by João Paulo on 19/07/2017.
  */
 public class ExperimentLearnMultiObjective {
-    private static final int INDEPENDENT_RUNS = 2;
+    private static final int INDEPENDENT_RUNS = 3;
     private static final int foldStart = 1;
     private static final int foldFinish = 10;
     private static final String stratification = "10";
-    private static final String baseDirectory = "./dataset-test";
-    private static final String[] datasetNames = {"zoo", "haberman"};
+    private static final String baseDirectory = "./small_unmod";
+    private static final String[] datasetNames =
+            {"australian", "automobile", "balance", "bupa" , "cleveland" , "contraceptive",
+            "crx", "ecoli", "german", "glass", "haberman", "heart", "hepatitis", "iris",
+            "newthyroid", "pima", "tae", "vehicle", "wine", "wisconsin"};
     private static final double crossoverProbability = 0.9;
     private static final double mutationProbability = 0.2;
     private static final int maxEvaluations = 1000;
@@ -46,7 +54,6 @@ public class ExperimentLearnMultiObjective {
     public static void main (String[] args) {
         //Extract the List of Problems that are going to be solved;
         List<ExperimentProblem<BinarySolution>> problems = configureProblems();
-        Debug.println("Number of problems to solve: " + problems.size());
 
         //Creates a list of algorithms that are going to solve these problems
         //Every algorithm will run every problem at least once.
@@ -54,7 +61,7 @@ public class ExperimentLearnMultiObjective {
 
         //Creates the Experiment
         Experiment<BinarySolution, List<BinarySolution>> experiment;
-        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("Experiment") //Name
+        experiment = new ExperimentBuilder<BinarySolution, List<BinarySolution>>("small_execution") //Name
                 .setAlgorithmList(algorithms)                                   //Algorithms created
                 .setProblemList(problems)                                       //Problems created
                 .setExperimentBaseDirectory(baseDirectory)                      //Directory to save results
@@ -64,6 +71,16 @@ public class ExperimentLearnMultiObjective {
                 .setNumberOfCores(Runtime.getRuntime().availableProcessors())   //Number of Threads to Use
                 .build();
 
+        System.out.println("The experiment will start in 10 seconds.");
+        System.out.println(problems.size() + " problems are going to be solved");
+        System.out.println(algorithms.size() + " algorithms are going to be executed " + INDEPENDENT_RUNS + " times");
+
+        try {
+            Thread.sleep(10000);
+        } catch (Exception k) {
+            k.printStackTrace();
+            System.exit(0);
+        }
         //Executes the Experiment
         new ExecuteAlgorithms<>(experiment).run();
 
@@ -95,15 +112,15 @@ public class ExperimentLearnMultiObjective {
         }
         //-----------------------------------------
 
-        Debug.println("Started: Generating Statistics");
+        System.out.println("Started: Generating Statistics");
         try {
             new GenerateStatistics<>(experiment).run();
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Debug.println("Finished: Generating Statistics");
+        System.out.println("Finished: Generating Statistics");
 
-        Debug.println("Started: Select Best Chromosome");
+        System.out.println("Started: Select Best Chromosome");
         List<File> result = null;
         try {
             SelectBestChromosome<BinarySolution, List<BinarySolution>> best = new SelectBestChromosome<>(experiment, stratification);
@@ -112,12 +129,12 @@ public class ExperimentLearnMultiObjective {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        Debug.println("Finished: Select Best Chromosome");
+        System.out.println("Finished: Select Best Chromosome");
 
-        Debug.println("Started: Test Selected Chromosome");
+        System.out.println("Started: Test Selected Chromosome");
         try {
             if (result == null) {
-                Debug.println("Result is null");
+                System.out.println("Result is null");
             } else {
                 new TestSelectedChromosome<>(experiment, stratification).run();
             }
@@ -125,7 +142,7 @@ public class ExperimentLearnMultiObjective {
             e.printStackTrace();
         }
 
-        Debug.println("Finished: Test Selected Chromosome");
+        System.out.println("Finished: Test Selected Chromosome");
     }
 
     private static List<ExperimentAlgorithm<BinarySolution, List<BinarySolution>>> configureAlgorithms(List<ExperimentProblem<BinarySolution>> problems) {
@@ -146,28 +163,28 @@ public class ExperimentLearnMultiObjective {
             //Adds this experiment algorithm to the algorithm list.
             //The ExperimentAlgorithm with time is a derivation of Experiment algorithm. The difference is that this one saves the execution time as well
             algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_do, exp_problem.getTag()));
-/*
+
 
             Algorithm<List<BinarySolution>> nsga_iii = new NSGAIIIBuilder<>(
                     problem)
-                    .setCrossoverOperator(new HUXCrossover(0.9))
-                    .setMutationOperator(new BitFlipMutation(0.2))
-                    .setPopulationSize(100)
-                    .setMaxIterations(1000)
+                    .setCrossoverOperator(new HUXCrossover(crossoverProbability))
+                    .setMutationOperator(new BitFlipMutation(mutationProbability))
+                    .setPopulationSize(populationSize)
+                    .setMaxIterations(maxEvaluations)
                     .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
                     .build();
 
             algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_iii, exp_problem.getTag()));
 
             Algorithm<List<BinarySolution>> nsga_ii = new NSGAIIBuilder<>(
-                    problem,                                     //The problem this algorithm is going to solve in the jpssena.experiment
-                    new HUXCrossover(0.9),      //Using HUXCrossover with 0.9 probability
-                    new BitFlipMutation(0.2))   //Using BitFlipMutation with 0.2 probability
-                    .setMaxEvaluations(1000)                     //Using 1000 max evaluations
-                    .setPopulationSize(100)                      //Using a population size of 100
+                    problem,                                    //The problem this algorithm is going to solve in the jpssena.experiment
+                    new HUXCrossover(crossoverProbability),     //Using HUXCrossover with 0.9 probability
+                    new BitFlipMutation(mutationProbability))   //Using BitFlipMutation with 0.2 probability
+                    .setMaxEvaluations(maxEvaluations)          //Using 1000 max evaluations
+                    .setPopulationSize(populationSize)          //Using a population size of 100
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));*/
+            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));
         }
 
         return algorithms;
@@ -190,6 +207,8 @@ public class ExperimentLearnMultiObjective {
                 File file = new File (baseDirectory + "/" + datasetName);
                 if (file.isDirectory())
                     problems.addAll(createProblemsOnDirectory(file));
+                else
+                    System.out.println("Couldn't find folder: " + datasetName);
             }
             /*
             for (File subDirectory : folder.listFiles()) {
@@ -215,10 +234,15 @@ public class ExperimentLearnMultiObjective {
             File testing    = new File(baseName + "tst.arff");
 
             //If they don't exists it's probably because it's not fix yet.
-            if (!training.exists())
+            if (!training.exists()) {
                 training = DatFixer.fixDatFormat(new File(baseName + "tra.dat"));
-            if (!testing.exists())
-                testing  = DatFixer.fixDatFormat(new File(baseName + "tst.dat"));
+                //training = new DatFileParser(new File(baseName + "tra.dat")).fixDatFormat();
+            }
+
+            if (!testing.exists()) {
+                testing = DatFixer.fixDatFormat(new File(baseName + "tst.dat"));
+                //testing = new DatFileParser(new File(baseName + "tst.dat")).fixDatFormat();
+            }
 
             Instances trainingInstances = null;
             Instances testingInstances = null;
@@ -234,9 +258,9 @@ public class ExperimentLearnMultiObjective {
                 //Add this new problem to the ExperimentProblem list
                 problems.add(new ExperimentProblem<>(new LearnMultiObjectivesSelectInstances(trainingInstances), directory.getName() + "-" + i));
             } catch (IOException e) {
-                Debug.println("Failed to get instances for fold: " + ((trainingInstances == null) ? training.getAbsolutePath() : testing.getAbsolutePath()));
-                Debug.println("Raised exception: " + e.getClass());
-                Debug.println("Exception message: " + e.getMessage());
+                System.out.println("Failed to get instances for fold: " + ((trainingInstances == null) ? training.getAbsolutePath() : testing.getAbsolutePath()));
+                System.out.println("Raised exception: " + e.getClass());
+                System.out.println("Exception message: " + e.getMessage() + "\n");
             }
         }
 
