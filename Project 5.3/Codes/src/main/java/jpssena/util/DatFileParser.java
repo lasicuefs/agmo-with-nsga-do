@@ -153,7 +153,11 @@ public class DatFileParser {
                     builder.append(value);
                 } else {
                     value = value.trim();
-                    int decimal = Integer.parseInt(value) - 1;
+                    int decimal = Integer.parseInt(value);
+
+                    if (i == (values.length - 1))
+                        decimal = Integer.parseInt(value) - 1;
+
                     String nominal = translationTable.get(decimal);
 
                     if (i != 0) builder.append(", ");

@@ -158,6 +158,7 @@ public class ExperimentLearnMultiObjective {
                     new BitFlipMutation(mutationProbability))    //Using BitFlipMutation with 0.2 probability
                     .setMaxEvaluations(maxEvaluations)           //Using 1000 max evaluations
                     .setPopulationSize(populationSize)           //Using a population size of 100
+                    .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
                     .build();
 
             //Adds this experiment algorithm to the algorithm list.
@@ -171,10 +172,9 @@ public class ExperimentLearnMultiObjective {
                     .setMutationOperator(new BitFlipMutation(mutationProbability))
                     .setPopulationSize(populationSize)
                     .setMaxIterations(maxEvaluations)
-                    .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_iii, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_iii, exp_problem.getTag()));
 
             Algorithm<List<BinarySolution>> nsga_ii = new NSGAIIBuilder<>(
                     problem,                                    //The problem this algorithm is going to solve in the jpssena.experiment
@@ -184,7 +184,7 @@ public class ExperimentLearnMultiObjective {
                     .setPopulationSize(populationSize)          //Using a population size of 100
                     .build();
 
-            algorithms.add(new ExperimentAlgorithm<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));
+            algorithms.add(new ExperimentAlgorithmWithTime<BinarySolution, List<BinarySolution>>(nsga_ii, exp_problem.getTag()));
         }
 
         return algorithms;
