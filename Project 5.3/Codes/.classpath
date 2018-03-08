@@ -4,6 +4,8 @@
 	<classpathentry kind="src" path="src/main/java"/>
 	<classpathentry kind="src" path="src/main/resources"/>
 	<classpathentry kind="src" path="src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R User Library"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R Skeletons"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.uma.jmetal:jmetal-core:5.3"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven.reporting:maven-reporting-api:3.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: org.apache.maven.doxia:doxia-sink-api:1.0"/>
@@ -40,7 +42,5 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: net.sourceforge.f2j:arpack_combined_all:0.1"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.googlecode.netlib-java:netlib-java:1.1"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.github.fommil.netlib:core:1.1"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R User Library"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/R Skeletons"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -1,12 +1,15 @@
 package jpssena.metaheuristics;
 
 import jpssena.algorithm.multiobjective.NSGADOBuilder;
+import jpssena.algorithm.multiobjective.NSGAIII_II;
 import jpssena.problem.LearnMultiObjectivesSelectInstances;
 import org.uma.jmetal.algorithm.Algorithm;
+import org.uma.jmetal.algorithm.multiobjective.nsgaiii.NSGAIIIBuilder;
 import org.uma.jmetal.operator.CrossoverOperator;
 import org.uma.jmetal.operator.MutationOperator;
 import org.uma.jmetal.operator.impl.crossover.HUXCrossover;
 import org.uma.jmetal.operator.impl.mutation.BitFlipMutation;
+import org.uma.jmetal.operator.impl.selection.BinaryTournamentSelection;
 import org.uma.jmetal.problem.Problem;
 import org.uma.jmetal.solution.BinarySolution;
 import org.uma.jmetal.util.AlgorithmRunner;
@@ -62,11 +65,20 @@ public class Learn_MultiObjective_main_SelectInstances implements Callable {
         mutationOperator  = new BitFlipMutation(0.2);
 
         //Setup the algorithm
+        algorithm = new NSGAIII_II<>(new NSGAIIIBuilder<>(problem)
+                .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
+                .setCrossoverOperator(crossoverOperator)
+                .setMutationOperator(mutationOperator)
+                .setPopulationSize(50)
+                .setMaxIterations(100)
+        );
+/*
         algorithm = new NSGADOBuilder<>(problem, crossoverOperator, mutationOperator)
-                .setPopulationSize(100)
                 .setMaxEvaluations(1000)
+                .setSelectionOperator(new BinaryTournamentSelection<BinarySolution>())
+                .setPopulationSize(100)
                 .build();
-
+*/
         //Time before running
         //long initTime = System.currentTimeMillis();
 

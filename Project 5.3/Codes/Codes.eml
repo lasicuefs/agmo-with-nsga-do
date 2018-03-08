@@ -6,6 +6,8 @@
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
 	<levels>
+		<level name="R User Library" value="project"/>
+		<level name="R Skeletons" value="project"/>
 		<level name="Maven: org.uma.jmetal:jmetal-core:5.3" value="project"/>
 		<level name="Maven: org.apache.maven.reporting:maven-reporting-api:3.0" value="project"/>
 		<level name="Maven: org.apache.maven.doxia:doxia-sink-api:1.0" value="project"/>
@@ -42,6 +44,5 @@
 		<level name="Maven: net.sourceforge.f2j:arpack_combined_all:0.1" value="project"/>
 		<level name="Maven: com.googlecode.netlib-java:netlib-java:1.1" value="project"/>
 		<level name="Maven: com.github.fommil.netlib:core:1.1" value="project"/>
-		<level name="R User Library" value="project"/>
 	</levels>
 </component>

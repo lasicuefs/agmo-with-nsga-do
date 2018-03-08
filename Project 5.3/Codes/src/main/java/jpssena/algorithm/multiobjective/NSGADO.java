@@ -11,6 +11,10 @@ import org.uma.jmetal.solution.Solution;
 import org.uma.jmetal.util.SolutionListUtils;
 import org.uma.jmetal.util.evaluator.SolutionListEvaluator;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,6 +28,11 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
     private final int maxEvaluations;
     private final SolutionListEvaluator<S> evaluator;
     private int evaluations;
+    private int iterations = 0;
+
+    protected double iterationFit = -1;
+    protected int iterationBal = 0;
+    BufferedWriter writer;
 
     //Default Constructor
     public NSGADO(Problem<S> problem, int maxEvaluations, int populationSize,
@@ -38,24 +47,74 @@ public class NSGADO<S extends Solution<?>> extends AbstractGeneticAlgorithm<S, L
         this.selectionOperator = selectionOperator;
 
         this.evaluator = evaluator;
+        try {
+            File f = new File("run_nsga_do.txt");
+            f.createNewFile();
+            writer = new BufferedWriter(new FileWriter(f, true));
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     //Copied Method
     @Override
     protected void initProgress() {
         evaluations = getMaxPopulationSize();
+        iterations = 1;
     }
 
     //Copied Method
     @Override
     protected void updateProgress() {
         evaluations += getMaxPopulationSize();
+        iterations++;
+        //System.out.println("Iteration: " + i);
     }
 
     //Copied Method
     @Override
     protected boolean isStoppingConditionReached() {
-        return evaluations >= maxEvaluations;
+        List<S> population = getPopulation();
+        double lvalue = -1;
+        for (S individual : population) {
+            double acc = individual.getObjective(0);
+            double red = individual.getObjective(1);
+            double value = Math.sqrt(acc * acc + red * red);
+            //double value = acc * red;
+            if (value > lvalue) {
+                lvalue = value;
+            }
+        }
+        if (lvalue > iterationFit) {
+            iterationFit = lvalue;
+            iterationBal = 0;
+        } else {
+            iterationBal++;
+        }
+
+        if (iterationBal == 6) {
+            try {
+                writer.write(getProblem().getName() + ": " + iterations + "\n");
+                System.out.println("\n" + getName() + ":" + getProblem().getName() + ":" + iterations + " -> fit: " + iterationFit);
+                writer.flush();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return true;
+        }
+
+        if (iterations >= 50) {
+            try {
+                writer.write("capped:" + getName() + ":" + getProblem().getName() + ": " + iterations + "\n");
+                System.out.println("\nIterations capped at 50: " + getProblem().getName() + ":" + iterations);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+            return true;
+        }
+        return false;
+        //return evaluations >= maxEvaluations;
     }
 
     //Copied Method

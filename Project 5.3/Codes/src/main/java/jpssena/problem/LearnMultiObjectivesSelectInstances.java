@@ -34,7 +34,7 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
         //Selected rate calculation
         double value = (samples.numInstances() - selected) / (double)samples.numInstances();
 
-        IBk knn = new IBk(1);
+        IBk knn = new IBk();
 
         double accuracy  = 0;
 
@@ -74,6 +74,15 @@ public class LearnMultiObjectivesSelectInstances extends AbstractBinaryProblem {
         this.bits = samples.numInstances();
 
         setName("Learn Select Instances");
+        setNumberOfObjectives(2);
+        setNumberOfVariables(samples.numAttributes());
+    }
+
+    public LearnMultiObjectivesSelectInstances(Instances samples, String modName) {
+        this.samples = samples;
+        this.bits = samples.numInstances();
+
+        setName(modName);
         setNumberOfObjectives(2);
         setNumberOfVariables(samples.numAttributes());
     }
