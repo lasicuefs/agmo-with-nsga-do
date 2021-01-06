@@ -1,4 +1,6 @@
-# Algoritmos Evolutivos Multiobjetivo
+# Seleção de instâncias de grandes bases de dados usando Algoritmos Evolutivos Multiobjetivo
+# Projeto desenvolvido por João Paulo Santos Sena. Bolsista FAPESB (01/08/2017 a 31/07/2018)
+# Orientador: Prof. Matheus Giovanni Pires
 
 Este trabalho consistiu no estudo sobre a aplicação de Algoritmos Genéticos Multiobjetivo (AGMO) para a redução de grandes bases de dados de problemas de classificação. Mais precisamente, foram avaliados três AGMO (NSGA-II, NSGA-III, NSGA-DO) e dois algoritmos determinísticos (RNG e PBIL).
 
